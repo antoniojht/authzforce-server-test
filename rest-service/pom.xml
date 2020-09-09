@@ -1,0 +1,194 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+   <parent>
+      <groupId>org.ow2.authzforce</groupId>
+      <artifactId>authzforce-ce-server</artifactId>
+      <!-- Version must be equal or higher than authzforce-ce-rest-api-model dependency -->
+      <version>8.0.1</version>
+      <relativePath>..</relativePath>
+   </parent>
+   <artifactId>authzforce-ce-server-rest-service</artifactId>
+   <name>${project.groupId}:${project.artifactId}</name>
+   <description>Implementation of RESTful API defined by authzforce-ce-rest-api-model package</description>
+   <url>https://github.com/authzforce/server/rest-service</url>
+   <scm>
+      <connection>scm:git:${git.url.base}.git</connection>
+      <developerConnection>scm:git:${git.url.base}.git</developerConnection>
+      <tag>HEAD</tag>
+      <url>${git.url.base}/rest-service</url>
+   </scm>
+   <dependencies>
+      <dependency>
+         <groupId>javax.servlet</groupId>
+         <artifactId>javax.servlet-api</artifactId>
+         <scope>provided</scope>
+      </dependency>
+      <dependency>
+         <groupId>org.slf4j</groupId>
+         <artifactId>log4j-over-slf4j</artifactId>
+      </dependency>
+      <dependency>
+         <groupId>${project.groupId}</groupId>
+         <artifactId>${artifactId.prefix}-rest-api-model</artifactId>
+         <version>5.7.0</version>
+      </dependency>
+      <dependency>
+         <groupId>${project.groupId}</groupId>
+         <artifactId>${artifactId.prefix}-core-pap-api</artifactId>
+      </dependency>
+      <dependency>
+         <groupId>org.ow2.authzforce</groupId>
+         <artifactId>authzforce-ce-jaxrs-utils</artifactId>
+         <version>1.1.0</version>
+      </dependency>
+   </dependencies>
+   <build>
+      <plugins>
+         <plugin>
+            <!-- Compute timestamp to be used in org.ow2.authzforce.server.product.properties. We cannot use Maven property 'maven.build.timestamp.format' because already used to compute 'currentYear' 
+               property -->
+            <!-- inherited from authzforce-ce-parent, with a different format, so we use a plugin. -->
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>build-helper-maven-plugin</artifactId>
+            <version>1.12</version>
+            <executions>
+               <execution>
+                  <id>set-current-date-property</id>
+                  <phase>initialize</phase>
+                  <goals>
+                     <goal>timestamp-property</goal>
+                  </goals>
+                  <configuration>
+                     <locale>en_US</locale>
+                     <timeZone>UTC</timeZone>
+                     <name>build.date</name>
+                     <pattern>yyyy-MM-dd</pattern>
+                  </configuration>
+               </execution>
+            </executions>
+         </plugin>
+         <!-- <plugin> -->
+         <!-- Compute timestamp to be used in org.ow2.authzforce.server.product.properties. We cannot use Maven property 'maven.build.timestamp.format' because already used to compute 'currentYear' property 
+            inherited from authzforce-ce-parent, with a different format, so we use a plugin. -->
+         <!-- <groupId>org.codehaus.mojo</groupId> -->
+         <!-- <artifactId>buildnumber-maven-plugin</artifactId> -->
+         <!-- <version>1.3</version> -->
+         <!-- <executions> -->
+         <!-- <execution> -->
+         <!-- <id>set-current-date-property</id> -->
+         <!-- <phase>initialize</phase> -->
+         <!-- <goals> -->
+         <!-- <goal>create-timestamp</goal> -->
+         <!-- </goals> -->
+         <!-- <configuration> -->
+         <!-- <timezone>UTC</timezone> -->
+         <!-- <timestampPropertyName>build.date</timestampPropertyName> -->
+         <!-- <timestampFormat>yyyy-MM-dd</timestampFormat> -->
+         <!-- </configuration> -->
+         <!-- </execution> -->
+         <!-- </executions> -->
+         <!-- </plugin> -->
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-resources-plugin</artifactId>
+            <executions>
+               <execution>
+                  <id>filter-product-properties-file</id>
+                  <phase>process-sources</phase>
+                  <goals>
+                     <goal>resources</goal>
+                  </goals>
+                  <configuration>
+                     <escapeString>\</escapeString>
+                     <overwrite>true</overwrite>
+                     <resources>
+                        <!-- Replace variable 'productName', 'project.version', 'build.date' in some source files. The result goes to ${project.build.directory}. -->
+                        <resource>
+                           <directory>src</directory>
+                           <filtering>true</filtering>
+                           <includes>
+                              <include>org.ow2.authzforce.server.product.properties</include>
+                           </includes>
+                        </resource>
+                     </resources>
+                  </configuration>
+               </execution>
+            </executions>
+         </plugin>
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-pmd-plugin</artifactId>
+            <!-- target JDK already set by parent project's maven.compiler.target property -->
+            <configuration>
+               <verbose>true</verbose>
+            </configuration>
+            <executions>
+               <execution>
+                  <phase>verify</phase>
+                  <goals>
+                     <goal>check</goal>
+                     <goal>cpd-check</goal>
+                  </goals>
+               </execution>
+            </executions>
+         </plugin>
+         <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>findbugs-maven-plugin</artifactId>
+            <executions>
+               <execution>
+                  <phase>verify</phase>
+                  <goals>
+                     <goal>check</goal>
+                  </goals>
+               </execution>
+            </executions>
+         </plugin>
+         <plugin>
+            <!-- Consider combining with Red Hat Victims and OSS Index. More info on Victims vs. Dependency-check: https://bugzilla.redhat.com/show_bug.cgi?id=1388712 -->
+            <groupId>org.owasp</groupId>
+            <artifactId>dependency-check-maven</artifactId>
+            <configuration>
+               <!-- The plugin has numerous issues with version matching, which triggers false positives so we need a "suppression" file for those. More info: https://github.com/jeremylong/DependencyCheck/issues -->
+               <suppressionFile>owasp-dependency-check-suppression.xml</suppressionFile>
+            </configuration>
+            <executions>
+               <execution>
+                  <goals>
+                     <goal>check</goal>
+                  </goals>
+               </execution>
+            </executions>
+         </plugin>
+         <plugin>
+            <groupId>com.mycila</groupId>
+            <artifactId>license-maven-plugin</artifactId>
+            <configuration>
+               <header>license/thales-gpl.header.txt</header>
+               <includes>
+                  <include>src/**</include>
+               </includes>
+               <excludes>
+                  <exclude>src/test/resources/**</exclude>
+               </excludes>
+            </configuration>
+            <executions>
+               <execution>
+                  <id>format-sources-license</id>
+                  <phase>process-sources</phase>
+                  <goals>
+                     <goal>format</goal>
+                  </goals>
+               </execution>
+               <execution>
+                  <id>format-test-sources-license</id>
+                  <phase>process-test-sources</phase>
+                  <goals>
+                     <goal>format</goal>
+                  </goals>
+               </execution>
+            </executions>
+         </plugin>
+      </plugins>
+   </build>
+</project>
