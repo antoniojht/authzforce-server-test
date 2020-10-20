@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.21">
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/src/main/java/org/ow2/authzforce/rest/service/jaxrs/DomainResourceImpl.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/src/main/java/org/ow2/authzforce/rest/service/jaxrs/DomainsResourceImpl.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/src/main/java/org/ow2/authzforce/rest/service/jaxrs/PolicyResourceImpl.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/src/main/java/org/ow2/authzforce/rest/service/jaxrs/PolicyVersionResourceImpl.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/src/main/java/org/ow2/authzforce/rest/service/jaxrs/ProductMetadataResourceImpl.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/src/main/java/org/ow2/authzforce/rest/service/jaxrs/PrpRWPropertiesImpl.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/src/main/java/org/ow2/authzforce/rest/service/jaxrs/WritableDomainPropertiesImpl.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/src/main/java/org/ow2/authzforce/rest/service/jaxrs/WritablePdpPropertiesImpl.java">
+</file>
+</checkstyle>

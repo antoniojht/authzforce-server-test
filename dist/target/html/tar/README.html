@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <title>AuthZForce Upgrader</title>
+    <meta charset="utf-8" />
+<!--     <link rel="stylesheet" href="./css/default.css"> -->
+</head>
+<body><h1>AuthZForce Server - Manual installation</h1><p>This guide provides the procedure to install the AuthZForce server from the tarball distribution, including system requirements and troubleshooting instructions. </p><h2><a href="#system-requirements" name="system-requirements">System Requirements</a></h2>
+<ul>
+  <li>CPU frequency: 2.6 GHz min</li>
+  <li>CPU architecture: i686/x86_64</li>
+  <li>RAM: 4GB min</li>
+  <li>Disk space: 10 GB min</li>
+  <li>File system: ext4</li>
+  <li>Operating System: Ubuntu 16.04 LTS</li>
+  <li>Java environment:
+  <ul>
+    <li>JRE 8 either from OpenJDK or Oracle;</li>
+    <li>Tomcat 8.x.</li>
+  </ul></li>
+</ul><h2><a href="#installation" name="installation">Installation</a></h2><h3><a href="#minimal" name="minimal">Minimal</a></h3>
+<ol>
+  <li>If you don&rsquo;t have a JRE 8 already installed, you may do it on the command-line as follows, depending on your JRE preference:
+  <ul>
+    <li>If you prefer OpenJDK: <code>$ sudo apt install openjdk-8-jdk</code></li>
+    <li>If you prefer Oracle JRE, follow the instructions from <a href="http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html">WEB UPD8</a>. In the end, you should have the package <code>oracle-java8-installer</code> installed.</li>
+  </ul></li>
+  <li>If you don&rsquo;t have Tomcat 8 already installed, you may do it on the command-line: <code>$ sudo apt install tomcat8</code></li>
+  <li>Download AuthZForce server tarball distribution from the <a href="http://repo1.maven.org/maven2/org/ow2/authzforce/authzforce-ce-server-dist/8.0.1/authzforce-ce-server-dist-8.0.1.tar.gz">Maven Central Repository</a>. You get a file called <code>authzforce-ce-server-dist-8.0.1.tar.gz</code>.</li>
+  <li>Copy this file to the host where you want to install AuthZForce Server.</li>
+  <li><p>For security purposes, Tomcat should be run as an unprivileged user (i.e. not <code>root</code>). If you installed Tomcat as shown above, this user is <code>tomcat8</code>. Let us assume that <code>tomcat8</code> is the user (and group) that will run the Tomcat service in your case, and <code>/opt</code> is the directory where you want to install AuthZForce server. Please replace both names according to your setup. <code>$CATALINA_BASE</code> is a Tomcat environment-specific property, usually equal to <code>$CATALINA_HOME</code>, i.e. the root directory of your Tomcat installation (<a href="https://tomcat.apache.org/tomcat-8.0-doc/introduction.html">more information</a>). If you installed Tomcat as shown above, <code>$CATALINA_BASE = /var/lib/tomcat8</code>. From the directory where you copied the tarball for installation, run the following commands:</p>
+  <pre><code class="shell">$ sudo tar xvzf authzforce-ce-server-dist-8.0.1.tar.gz --directory /opt
+$ sudo ln -s authzforce-ce-server-8.0.1 authzforce-ce-server
+$ sudo chown -RH tomcat8 authzforce-ce-server
+$ sudo chgrp -RH tomcat8 authzforce-ce-server
+$ sudo cp /opt/authzforce-ce-server/conf/context.xml.sample $CATALINA_BASE/conf/Catalina/localhost/authzforce-ce.xml
+</code></pre></li>
+  <li>If you did not use <code>/opt</code> as installation directory, replace <strong>ALL</strong> occurrences of <code>/opt</code> in the webapp context configuration file <code>authzforce-ce.xml</code> according to your setup.</li>
+  <li><p>You may restart Tomcat server now. For instance, if you installed Tomcat as shown above, do it as follows:</p>
+  <pre><code class="shell">$ systemctl restart tomcat8
+</code></pre><p><strong>Known issue: lack of entropy may cause delays in Tomcat 7+ start up on virtual machines in particular: <a href="https://wiki.apache.org/tomcat/HowTo/FasterStartUp#Entropy_Source">more info on Entropy Source issue</a>. So beware.</strong></p></li>
+  <li><p>When the webapp is up and running, you should get a HTTP response with status code 200 to this HTTP request with curl tool (replace 8080 with the port that Tomcat is listening to):</p>
+  <pre><code class="shell">$ curl --verbose --show-error --write-out &#39;\n&#39; --request GET http://localhost:8080/authzforce-ce/domains
+</code></pre></li>
+</ol><p>Now you can start playing with the REST API as defined by the WADL document that you can retrieve with a wget command (will save the wadl to local file <code>authzforce.wadl</code>):</p>
+<pre><code class="shell">$ wget -v -O authzforce.wadl http://localhost:8080/authzforce-ce/?_wadl
+</code></pre><h3><a href="#advanced" name="advanced">Advanced</a></h3><p>Tomcat default setup is not suitable for production! If you are targeting a production environment, you have to carry out extra installation and configuration steps to address non-functional aspects: security (including availability), performance, etc. For performance aspects, we strongly recommend reading and applying - when relevant - the guidelines from the following links:</p>
+<ul>
+  <li><a href="http://kb.vmware.com/kb/2013486">Performance tuning best practices for VMware Apache Tomcat</a>;</li>
+  <li><a href="http://www.genericarticles.com/mediawiki/index.php?title=How_to_optimize_tomcat_performance_in_production">How to optimize Tomcat performance in production</a>;</li>
+  <li><a href="https://javamaster.wordpress.com/2013/03/13/apache-tomcat-tuning-guide/">Apache Tomcat Tuning Guide for REST/HTTP APIs</a>.</li>
+</ul><p>Last but not least, please check the <em>More information</em> section below.</p><h2><a href="#troubleshooting" name="troubleshooting">Troubleshooting</a></h2><p>If Tomcat fails to (re)start, check for any Tomcat high-level error in Tomcat log directory: <code>$CATALINA_BASE/logs</code>. One common reason for failure is Tomcat default configuration may specify a value for the Java <code>Xmx</code> flag that is too low for the AuthZForce webapp. Make sure Tomcat is configured with <code>Xmx</code> at 1GB or more, 2 GB recommended. For example:</p>
+<pre><code class="shell">$ export JAVA_OPTS=&#39;&quot;-Djava.awt.headless=true -Djavax.xml.accessExternalSchema=http -Xms1024m -Xmx1024m -XX:+UseConcMarkSweepGC -server&quot;&#39;
+$ sed -i &#39;s|^\(JAVA_OPTS\s*=\s*\).*$|\1&#39;&quot;$JAVA_OPTS&quot;&#39;|&#39; /etc/default/tomcat8
+$ systemctl restart tomcat8
+</code></pre><p>If Tomcat is started but AuthZForce webapp deployment fails, check for any webapp-specific error in log file: <code>$CATALINA_BASE/logs/authzforce-ce/error.log</code></p><h2><a href="#more-information" name="more-information">More information</a></h2><p>For more information, go to the <a href="http://authzforce-ce-fiware.readthedocs.io/en/">online documentation</a> and select the version matching your software release at the bottom of the page.</p><footer>&copy; Copyright 2012-2020 Thales Services.</footer>
+</body>
+</html>

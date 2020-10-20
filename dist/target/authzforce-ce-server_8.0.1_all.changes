@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Tue, 20 Oct 2020 10:06:41 +0000
+Source: authzforce-ce-server
+Binary: authzforce-ce-server
+Architecture: all
+Version: 8.0.1
+Distribution: stable
+Urgency: low
+Maintainer: Thales Services SAS
+Changed-By: Thales Services SAS
+Description:
+ authzforce-ce-server - AuthzForce CE Server.
+Changes:
+ authzforce-ce-server (8.0.1) stable; urgency=low
+ .
+   * See https://github.com/authzforce/server/blob/release-8.0.1/CHANGELOG.md
+Checksums-Sha1:
+ 832fb64fae1732335cfaf60e9326c1811fa09530 18655610 authzforce-ce-server_8.0.1-0ubuntu1_all.deb
+Checksums-Sha256:
+ 4975b4701ebd30a4b48c0b9e4bb751f73a57bb47fe36fea0bfb87de5c487a5f4 18655610 authzforce-ce-server_8.0.1-0ubuntu1_all.deb
+Files:
+ 540155f8cf5d75aa6db83675d8e947ff 18655610 web optional authzforce-ce-server_8.0.1-0ubuntu1_all.deb

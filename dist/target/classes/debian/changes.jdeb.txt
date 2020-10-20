@@ -1,0 +1,2 @@
+release date=10:06 20.10.2020,version=8.0.1,urgency=low,by=Thales Services <http://www.thalesgroup.com>
+ * See https://github.com/authzforce/server/blob/release-8.0.1/CHANGELOG.md

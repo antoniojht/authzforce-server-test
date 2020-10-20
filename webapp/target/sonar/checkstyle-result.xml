@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.21">
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/src/main/java/org/ow2/authzforce/webapp/ErrorHandlerInterceptor.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/src/main/java/org/ow2/authzforce/webapp/ExceptionFilter.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/src/main/java/org/ow2/authzforce/webapp/HardenedMappedXMLInputFactory.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/src/main/java/org/ow2/authzforce/webapp/JsonRiCxfJaxrsProvider.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/src/main/java/org/ow2/authzforce/webapp/SetPropertyAllowingMappedXMLInputFactory.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/src/main/java/org/ow2/authzforce/webapp/org/apache/cxf/interceptor/JAXRSSubResourceCompatibleFIStaxInInterceptor.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/src/main/java/org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/JSONProvider.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/src/main/java/org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/utils/JSONUtils.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/src/main/java/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/Configuration.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/src/main/java/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedNamespaceConvention.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/src/main/java/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedXMLInputFactory.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/src/main/java/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedXMLStreamReader.java">
+</file>
+<file name="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/src/main/java/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedXMLStreamWriter.java">
+</file>
+</checkstyle>

@@ -1,0 +1,6 @@
+projectKey=5f8e8c2c2849557d35838257
+serverUrl=http://18.202.141.112:19000
+serverVersion=7.1.0.11001
+dashboardUrl=http://18.202.141.112:19000/dashboard/index/5f8e8c2c2849557d35838257
+ceTaskId=AXVFejLp41htY1Jxv03k
+ceTaskUrl=http://18.202.141.112:19000/api/ce/task?id=AXVFejLp41htY1Jxv03k

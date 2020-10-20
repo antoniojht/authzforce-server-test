@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="140.541" tests="425" errors="0" skipped="2" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/local/openjdk-8/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.265-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49"/>
+    <property name="java.runtime.version" value="1.8.0_265-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/local/openjdk-8/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="sonar.login" value="a5312c150f49b0c0c0f54db042919db6de8f9138"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.4.0-48-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sonar.host.url" value="http://18.202.141.112:19000"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="sonar.projectKey" value="5f8e8c2c2849557d35838257"/>
+    <property name="user.name" value="root"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/local/openjdk-8/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar -Dsonar.projectKey=5f8e8c2c2849557d35838257 -Dsonar.host.url=http://18.202.141.112:19000 -Dsonar.login=a5312c150f49b0c0c0f54db042919db6de8f9138"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_265"/>
+    <property name="org.apache.cxf.JDKBugHacks.defaultUsesCaches" value="true"/>
+    <property name="java.ext.dirs" value="/usr/local/openjdk-8/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/local/openjdk-8/jre/lib/resources.jar:/usr/local/openjdk-8/jre/lib/rt.jar:/usr/local/openjdk-8/jre/lib/sunrsasign.jar:/usr/local/openjdk-8/jre/lib/jsse.jar:/usr/local/openjdk-8/jre/lib/jce.jar:/usr/local/openjdk-8/jre/lib/charsets.jar:/usr/local/openjdk-8/jre/lib/jfr.jar:/usr/local/openjdk-8/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="getWADL" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.945"/>
+  <testcase name="getWADL" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.071"/>
+  <testcase name="getWADL" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.022"/>
+  <testcase name="getWADL" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.065"/>
+  <testcase name="addAndGetDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.212"/>
+  <testcase name="addAndGetDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.045"/>
+  <testcase name="addAndGetDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.015"/>
+  <testcase name="addAndGetDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.056"/>
+  <testcase name="addAndGetDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.061"/>
+  <testcase name="addAndGetDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.063"/>
+  <testcase name="addAndGetDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.057"/>
+  <testcase name="addAndGetDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.02"/>
+  <testcase name="addAndGetDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.023"/>
+  <testcase name="addAndGetDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.17"/>
+  <testcase name="addAndGetDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.054"/>
+  <testcase name="addAndGetDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.158"/>
+  <testcase name="getDomains" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.012"/>
+  <testcase name="getDomains" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0"/>
+  <testcase name="getDomains" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.014"/>
+  <testcase name="getDomains" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.016"/>
+  <testcase name="getDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.592"/>
+  <testcase name="getDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0"/>
+  <testcase name="getDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.012"/>
+  <testcase name="getDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.011"/>
+  <testcase name="getDomainByExternalId" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.006"/>
+  <testcase name="getDomainByExternalId" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0"/>
+  <testcase name="getDomainByExternalId" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.013"/>
+  <testcase name="getDomainByExternalId" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.019"/>
+  <testcase name="deleteDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.005"/>
+  <testcase name="deleteDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.008"/>
+  <testcase name="deleteDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.01"/>
+  <testcase name="deleteDomain" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.019"/>
+  <testcase name="getDomainProperties" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.027"/>
+  <testcase name="getDomainProperties" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.008"/>
+  <testcase name="getDomainProperties" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.005"/>
+  <testcase name="getDomainProperties" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.004"/>
+  <testcase name="getDomainProperties" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0"/>
+  <testcase name="getDomainProperties" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.013"/>
+  <testcase name="getDomainProperties" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.012"/>
+  <testcase name="getDomain" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.005"/>
+  <testcase name="getDomain" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.009"/>
+  <testcase name="getDomain" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.013"/>
+  <testcase name="getDomain" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.021"/>
+  <testcase name="getDomain" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.261"/>
+  <testcase name="getDomain" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.009"/>
+  <testcase name="getDomain" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.007"/>
+  <testcase name="requestPDPDumb" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.037"/>
+  <testcase name="requestPDPDumb" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.008"/>
+  <testcase name="requestPDPDumb" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.007"/>
+  <testcase name="requestPDPDumb" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.006"/>
+  <testcase name="requestPDPDumb" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.083"/>
+  <testcase name="requestPDPDumb" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.016"/>
+  <testcase name="requestPDPDumb" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.01"/>
+  <testcase name="updateDomainProperties" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.006"/>
+  <testcase name="updateDomainProperties" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.064"/>
+  <testcase name="updateDomainProperties" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.013"/>
+  <testcase name="updateDomainProperties" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.028"/>
+  <testcase name="updateDomainProperties" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.007"/>
+  <testcase name="updateDomainProperties" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.025"/>
+  <testcase name="updateDomainProperties" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.014"/>
+  <testcase name="getPap" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.007"/>
+  <testcase name="getPap" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.008"/>
+  <testcase name="getPap" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.004"/>
+  <testcase name="getPap" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.004"/>
+  <testcase name="getPap" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0"/>
+  <testcase name="getPap" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.028"/>
+  <testcase name="getPap" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.009"/>
+  <testcase name="getAttributeProviders" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.008"/>
+  <testcase name="getAttributeProviders" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.013"/>
+  <testcase name="getAttributeProviders" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.005"/>
+  <testcase name="getAttributeProviders" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.01"/>
+  <testcase name="getAttributeProviders" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.004"/>
+  <testcase name="getAttributeProviders" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.006"/>
+  <testcase name="getAttributeProviders" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.005"/>
+  <testcase name="getPolicies" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.011"/>
+  <testcase name="getPolicies" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.006"/>
+  <testcase name="getPolicies" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.003"/>
+  <testcase name="getPolicies" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.006"/>
+  <testcase name="getPolicies" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.002"/>
+  <testcase name="getPolicies" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.003"/>
+  <testcase name="getPolicies" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.004"/>
+  <testcase name="updateAttributeProviders" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.013"/>
+  <testcase name="updateAttributeProviders" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.031"/>
+  <testcase name="updateAttributeProviders" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.013"/>
+  <testcase name="updateAttributeProviders" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.026"/>
+  <testcase name="updateAttributeProviders" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.013"/>
+  <testcase name="updateAttributeProviders" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.02"/>
+  <testcase name="updateAttributeProviders" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.016"/>
+  <testcase name="getRootPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.008"/>
+  <testcase name="getRootPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.019"/>
+  <testcase name="getRootPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.007"/>
+  <testcase name="getRootPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.021"/>
+  <testcase name="getRootPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.006"/>
+  <testcase name="getRootPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.013"/>
+  <testcase name="getRootPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.007"/>
+  <testcase name="addAndGetPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.008"/>
+  <testcase name="addAndGetPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.07"/>
+  <testcase name="addAndGetPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.04"/>
+  <testcase name="addAndGetPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.092"/>
+  <testcase name="addAndGetPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.046"/>
+  <testcase name="addAndGetPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.117"/>
+  <testcase name="addAndGetPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.057"/>
+  <testcase name="disablePolicyVersionRolling" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.009"/>
+  <testcase name="disablePolicyVersionRolling" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.02"/>
+  <testcase name="disablePolicyVersionRolling" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.011"/>
+  <testcase name="disablePolicyVersionRolling" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.028"/>
+  <testcase name="disablePolicyVersionRolling" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.103"/>
+  <testcase name="disablePolicyVersionRolling" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.024"/>
+  <testcase name="disablePolicyVersionRolling" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.018"/>
+  <testcase name="getDomainsWithoutAcceptHeader" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.029"/>
+  <testcase name="getDomainsWithoutAcceptHeader" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.024"/>
+  <testcase name="getDomainsWithoutAcceptHeader" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.027"/>
+  <testcase name="getDomainsWithBadAcceptHeader" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.013"/>
+  <testcase name="getDomainsWithBadAcceptHeader" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0"/>
+  <testcase name="getDomainsWithBadAcceptHeader" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.02"/>
+  <testcase name="addDomainWithTooBigDescription" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.088"/>
+  <testcase name="addDomainWithTooBigDescription" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0">
+    <skipped message="Not supported in FastInfoset mode"/>
+  </testcase>
+  <testcase name="addDomainWithTooBigDescription" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.009"/>
+  <testcase name="addDomainWithTooBigExternalId" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.073"/>
+  <testcase name="addDomainWithTooBigExternalId" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0">
+    <skipped message="Not supported in FastInfoset mode"/>
+  </testcase>
+  <testcase name="addDomainWithTooBigExternalId" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.018"/>
+  <testcase name="getDomainsAfterFileModifications" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.069"/>
+  <testcase name="getDomainsAfterFileModifications" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.041"/>
+  <testcase name="deleteDomainAfterDirectoryDeleted" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.017"/>
+  <testcase name="deleteDomainAfterDirectoryDeleted" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.017"/>
+  <testcase name="getPdpAfterDomainDirCreated" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.054"/>
+  <testcase name="getPdpAfterDomainDirCreated" classname="org.ow2.authzforce.webapp.test.RootResourcesTest" time="0.03"/>
+  <testcase name="getDomainPropertiesAfterFileModification" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.038"/>
+  <testcase name="getDomainPropertiesAfterFileModification" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.025"/>
+  <testcase name="getDomainPropertiesAfterFileModification" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.029"/>
+  <testcase name="getDomainPropertiesAfterFileModification" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.892"/>
+  <testcase name="getDomainPropertiesAfterFileModification" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.075"/>
+  <testcase name="getDomainPropertiesAfterFileModification" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.074"/>
+  <testcase name="headDomainPropertiesAfterFileModification" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.05"/>
+  <testcase name="headDomainPropertiesAfterFileModification" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.014"/>
+  <testcase name="headDomainPropertiesAfterFileModification" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.025"/>
+  <testcase name="headDomainPropertiesAfterFileModification" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.956"/>
+  <testcase name="headDomainPropertiesAfterFileModification" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.02"/>
+  <testcase name="headDomainPropertiesAfterFileModification" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.018"/>
+  <testcase name="requestXacmlJsonPDPDumb" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.003"/>
+  <testcase name="requestXacmlJsonPDPDumb" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0"/>
+  <testcase name="requestXacmlJsonPDPDumb" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0"/>
+  <testcase name="requestXacmlJsonPDPDumb" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0"/>
+  <testcase name="requestXacmlJsonPDPDumb" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.274"/>
+  <testcase name="requestXacmlJsonPDPDumb" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.076"/>
+  <testcase name="addConflictingPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.03"/>
+  <testcase name="addConflictingPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.017"/>
+  <testcase name="addConflictingPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.026"/>
+  <testcase name="addConflictingPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.023"/>
+  <testcase name="addConflictingPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.057"/>
+  <testcase name="addConflictingPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.02"/>
+  <testcase name="addInvalidPolicyType" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.137"/>
+  <testcase name="addInvalidPolicyType" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.119"/>
+  <testcase name="addInvalidPolicyType" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.228"/>
+  <testcase name="addInvalidPolicyType" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.127"/>
+  <testcase name="addInvalidPolicyType" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.173"/>
+  <testcase name="addInvalidPolicyType" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.115"/>
+  <testcase name="addInvalidPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.024"/>
+  <testcase name="addInvalidPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.084"/>
+  <testcase name="addInvalidPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.18"/>
+  <testcase name="addInvalidPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.078"/>
+  <testcase name="addInvalidPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.068"/>
+  <testcase name="addInvalidPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.076"/>
+  <testcase name="addPolicyTooDeep" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.013"/>
+  <testcase name="addPolicyTooDeep" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.071"/>
+  <testcase name="addPolicyTooDeep" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.011"/>
+  <testcase name="addPolicyWithTooManyChildElements" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.049"/>
+  <testcase name="addPolicyWithTooManyChildElements" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.061"/>
+  <testcase name="addPolicyWithTooManyChildElements" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.019"/>
+  <testcase name="addTooManyPolicies" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.1"/>
+  <testcase name="addTooManyPolicies" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.028"/>
+  <testcase name="addTooManyPolicies" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.087"/>
+  <testcase name="addTooManyPolicies" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.092"/>
+  <testcase name="addTooManyPolicies" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.129"/>
+  <testcase name="addTooManyPolicies" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.084"/>
+  <testcase name="deleteAndTryGetUnusedPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.102"/>
+  <testcase name="deleteAndTryGetUnusedPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.069"/>
+  <testcase name="deleteAndTryGetUnusedPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.164"/>
+  <testcase name="deleteAndTryGetUnusedPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.112"/>
+  <testcase name="deleteAndTryGetUnusedPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.134"/>
+  <testcase name="deleteAndTryGetUnusedPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.082"/>
+  <testcase name="getPolicyVersions" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.071"/>
+  <testcase name="getPolicyVersions" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.049"/>
+  <testcase name="getPolicyVersions" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.497"/>
+  <testcase name="getPolicyVersions" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.042"/>
+  <testcase name="getPolicyVersions" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.083"/>
+  <testcase name="getPolicyVersions" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.087"/>
+  <testcase name="setValidMaxPolicyCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.061"/>
+  <testcase name="setValidMaxPolicyCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.037"/>
+  <testcase name="setValidMaxPolicyCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.1"/>
+  <testcase name="setValidMaxPolicyCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.085"/>
+  <testcase name="setValidMaxPolicyCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.105"/>
+  <testcase name="setValidMaxPolicyCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.06"/>
+  <testcase name="addTooManyPolicyVersions" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.15"/>
+  <testcase name="addTooManyPolicyVersions" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.062"/>
+  <testcase name="addTooManyPolicyVersions" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0"/>
+  <testcase name="addTooManyPolicyVersions" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.12"/>
+  <testcase name="addTooManyPolicyVersions" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.203"/>
+  <testcase name="addTooManyPolicyVersions" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.126"/>
+  <testcase name="deleteAndTryGetPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.096"/>
+  <testcase name="deleteAndTryGetPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.036"/>
+  <testcase name="deleteAndTryGetPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.04"/>
+  <testcase name="deleteAndTryGetPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.063"/>
+  <testcase name="deleteAndTryGetPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.105"/>
+  <testcase name="deleteAndTryGetPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.05"/>
+  <testcase name="deleteRootPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.041"/>
+  <testcase name="deleteRootPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.025"/>
+  <testcase name="deleteRootPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.018"/>
+  <testcase name="deleteRootPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.023"/>
+  <testcase name="deleteRootPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.035"/>
+  <testcase name="deleteRootPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.018"/>
+  <testcase name="getAndDeleteLatestPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.099"/>
+  <testcase name="getAndDeleteLatestPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.063"/>
+  <testcase name="getAndDeleteLatestPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.054"/>
+  <testcase name="getAndDeleteLatestPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.287"/>
+  <testcase name="getAndDeleteLatestPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.132"/>
+  <testcase name="getAndDeleteLatestPolicyVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.159"/>
+  <testcase name="setTooSmallMaxPolicyCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.12"/>
+  <testcase name="setTooSmallMaxPolicyCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.08"/>
+  <testcase name="setTooSmallMaxPolicyCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.08"/>
+  <testcase name="setTooSmallMaxPolicyCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.056"/>
+  <testcase name="setTooSmallMaxPolicyCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.188"/>
+  <testcase name="setTooSmallMaxPolicyCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.113"/>
+  <testcase name="setValidMaxPolicyVersionCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.072"/>
+  <testcase name="setValidMaxPolicyVersionCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.061"/>
+  <testcase name="setValidMaxPolicyVersionCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.055"/>
+  <testcase name="setValidMaxPolicyVersionCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.092"/>
+  <testcase name="setValidMaxPolicyVersionCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.111"/>
+  <testcase name="setValidMaxPolicyVersionCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.072"/>
+  <testcase name="deleteSingleVersionOfPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.037"/>
+  <testcase name="deleteSingleVersionOfPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.031"/>
+  <testcase name="deleteSingleVersionOfPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.037"/>
+  <testcase name="deleteSingleVersionOfPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.033"/>
+  <testcase name="deleteSingleVersionOfPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.094"/>
+  <testcase name="deleteSingleVersionOfPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.036"/>
+  <testcase name="setTooSmallMaxPolicyVersionCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.142"/>
+  <testcase name="setTooSmallMaxPolicyVersionCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.089"/>
+  <testcase name="setTooSmallMaxPolicyVersionCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.098"/>
+  <testcase name="setTooSmallMaxPolicyVersionCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.162"/>
+  <testcase name="setTooSmallMaxPolicyVersionCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.194"/>
+  <testcase name="setTooSmallMaxPolicyVersionCount" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.195"/>
+  <testcase name="updateRootPolicyRefToValidPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.069"/>
+  <testcase name="updateRootPolicyRefToValidPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.031"/>
+  <testcase name="updateRootPolicyRefToValidPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.092"/>
+  <testcase name="updateRootPolicyRefToValidPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.051"/>
+  <testcase name="updateRootPolicyRefToValidPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.096"/>
+  <testcase name="updateRootPolicyRefToValidPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.068"/>
+  <testcase name="setRootPolicyWithGoodRefs" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.145"/>
+  <testcase name="setRootPolicyWithGoodRefs" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.068"/>
+  <testcase name="setRootPolicyWithGoodRefs" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.086"/>
+  <testcase name="setRootPolicyWithGoodRefs" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.156"/>
+  <testcase name="setRootPolicyWithGoodRefs" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.205"/>
+  <testcase name="setRootPolicyWithGoodRefs" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.165"/>
+  <testcase name="updateRootPolicyRefToMissingPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.038"/>
+  <testcase name="updateRootPolicyRefToMissingPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.013"/>
+  <testcase name="updateRootPolicyRefToMissingPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.014"/>
+  <testcase name="updateRootPolicyRefToMissingPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.029"/>
+  <testcase name="updateRootPolicyRefToMissingPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.029"/>
+  <testcase name="updateRootPolicyRefToMissingPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.045"/>
+  <testcase name="updateRootPolicyRefToValidVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.152"/>
+  <testcase name="updateRootPolicyRefToValidVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.083"/>
+  <testcase name="updateRootPolicyRefToValidVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.095"/>
+  <testcase name="updateRootPolicyRefToValidVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.152"/>
+  <testcase name="updateRootPolicyRefToValidVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.225"/>
+  <testcase name="updateRootPolicyRefToValidVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.211"/>
+  <testcase name="enableMDPRequestPreproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.046"/>
+  <testcase name="enableMDPRequestPreproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.03"/>
+  <testcase name="enableMDPRequestPreproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.023"/>
+  <testcase name="enableMDPRequestPreproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.055"/>
+  <testcase name="enableMDPRequestPreproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.068"/>
+  <testcase name="enableMDPRequestPreproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.052"/>
+  <testcase name="enableMDPResultPostproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.046"/>
+  <testcase name="enableMDPResultPostproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.023"/>
+  <testcase name="enableMDPResultPostproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.02"/>
+  <testcase name="enableMDPResultPostproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.029"/>
+  <testcase name="enableMDPResultPostproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.047"/>
+  <testcase name="enableMDPResultPostproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.042"/>
+  <testcase name="enableThenDisableCustomCombiningAlgorithm" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.128"/>
+  <testcase name="enableThenDisableCustomCombiningAlgorithm" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.057"/>
+  <testcase name="enableThenDisableCustomCombiningAlgorithm" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.034"/>
+  <testcase name="enableThenDisableCustomCombiningAlgorithm" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.245"/>
+  <testcase name="enableThenDisableCustomCombiningAlgorithm" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.067"/>
+  <testcase name="enableThenDisableCustomCombiningAlgorithm" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.085"/>
+  <testcase name="enableThenDisableCustomDatatype" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.115"/>
+  <testcase name="enableThenDisableCustomDatatype" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.04"/>
+  <testcase name="enableThenDisableCustomDatatype" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.034"/>
+  <testcase name="enableThenDisableCustomDatatype" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.005"/>
+  <testcase name="enableThenDisableCustomDatatype" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.058"/>
+  <testcase name="enableThenDisableCustomDatatype" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.098"/>
+  <testcase name="enableThenDisableCustomFunction" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.143"/>
+  <testcase name="enableThenDisableCustomFunction" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.063"/>
+  <testcase name="enableThenDisableCustomFunction" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.037"/>
+  <testcase name="enableThenDisableCustomFunction" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.273"/>
+  <testcase name="enableThenDisableCustomFunction" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.057"/>
+  <testcase name="enableThenDisableCustomFunction" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.064"/>
+  <testcase name="enableThenDisableStrictAttributeIssuerMatch" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.169"/>
+  <testcase name="enableThenDisableStrictAttributeIssuerMatch" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.103"/>
+  <testcase name="enableThenDisableStrictAttributeIssuerMatch" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.054"/>
+  <testcase name="enableThenDisableStrictAttributeIssuerMatch" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.118"/>
+  <testcase name="enableThenDisableStrictAttributeIssuerMatch" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.083"/>
+  <testcase name="enableThenDisableStrictAttributeIssuerMatch" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.102"/>
+  <testcase name="enableThenDisableXPath" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.097"/>
+  <testcase name="enableThenDisableXPath" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.057"/>
+  <testcase name="enableThenDisableXPath" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.05"/>
+  <testcase name="enableThenDisableXPath" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.096"/>
+  <testcase name="enableThenDisableXPath" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.056"/>
+  <testcase name="enableThenDisableXPath" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.079"/>
+  <testcase name="getPdpPropertiesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.363"/>
+  <testcase name="getPdpPropertiesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.292"/>
+  <testcase name="getPdpPropertiesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.191"/>
+  <testcase name="getPdpPropertiesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.918"/>
+  <testcase name="getPdpPropertiesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.201"/>
+  <testcase name="getPdpPropertiesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.258"/>
+  <testcase name="getPoliciesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.268"/>
+  <testcase name="getPoliciesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.302"/>
+  <testcase name="getPoliciesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.448"/>
+  <testcase name="getPoliciesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.199"/>
+  <testcase name="getPoliciesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.373"/>
+  <testcase name="getPoliciesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.264"/>
+  <testcase name="getRootPolicyRefAfterChangingPdpConfFile" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.115"/>
+  <testcase name="getRootPolicyRefAfterChangingPdpConfFile" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.063"/>
+  <testcase name="getRootPolicyRefAfterChangingPdpConfFile" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.983"/>
+  <testcase name="getRootPolicyRefAfterChangingPdpConfFile" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.115"/>
+  <testcase name="getRootPolicyRefAfterChangingPdpConfFile" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.135"/>
+  <testcase name="getRootPolicyRefAfterChangingPdpConfFile" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.102"/>
+  <testcase name="headRootPolicyRefAfterChangingPdpConfFile" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.051"/>
+  <testcase name="headRootPolicyRefAfterChangingPdpConfFile" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.056"/>
+  <testcase name="headRootPolicyRefAfterChangingPdpConfFile" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.078"/>
+  <testcase name="headRootPolicyRefAfterChangingPdpConfFile" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.048"/>
+  <testcase name="headRootPolicyRefAfterChangingPdpConfFile" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.076"/>
+  <testcase name="headRootPolicyRefAfterChangingPdpConfFile" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.103"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.141"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.079"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.071"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.074"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.072"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.121"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.075"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.092"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.056"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.099"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.062"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.076"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.199"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.074"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.079"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.101"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.116"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.092"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.115"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.073"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.107"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.069"/>
+  <testcase name="requestPDPWithoutMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.088"/>
+  <testcase name="setRootPolicyWithCircularRef" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.127"/>
+  <testcase name="setRootPolicyWithCircularRef" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.141"/>
+  <testcase name="setRootPolicyWithCircularRef" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.121"/>
+  <testcase name="setRootPolicyWithCircularRef" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.069"/>
+  <testcase name="setRootPolicyWithCircularRef" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.145"/>
+  <testcase name="setRootPolicyWithCircularRef" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.108"/>
+  <testcase name="setRootPolicyWithRefToMissingPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.083"/>
+  <testcase name="setRootPolicyWithRefToMissingPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.064"/>
+  <testcase name="setRootPolicyWithRefToMissingPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.07"/>
+  <testcase name="setRootPolicyWithRefToMissingPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.054"/>
+  <testcase name="setRootPolicyWithRefToMissingPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.123"/>
+  <testcase name="setRootPolicyWithRefToMissingPolicy" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.087"/>
+  <testcase name="updateRootPolicyRefToMissingVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.023"/>
+  <testcase name="updateRootPolicyRefToMissingVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.019"/>
+  <testcase name="updateRootPolicyRefToMissingVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.022"/>
+  <testcase name="updateRootPolicyRefToMissingVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.013"/>
+  <testcase name="updateRootPolicyRefToMissingVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.028"/>
+  <testcase name="updateRootPolicyRefToMissingVersion" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.022"/>
+  <testcase name="disableMDPRequestPreproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.025"/>
+  <testcase name="disableMDPRequestPreproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.017"/>
+  <testcase name="disableMDPRequestPreproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.029"/>
+  <testcase name="disableMDPRequestPreproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.021"/>
+  <testcase name="disableMDPRequestPreproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.04"/>
+  <testcase name="disableMDPRequestPreproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.025"/>
+  <testcase name="disableMDPResultPostproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.029"/>
+  <testcase name="disableMDPResultPostproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.015"/>
+  <testcase name="disableMDPResultPostproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.02"/>
+  <testcase name="disableMDPResultPostproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.024"/>
+  <testcase name="disableMDPResultPostproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.034"/>
+  <testcase name="disableMDPResultPostproc" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.038"/>
+  <testcase name="headPdpPropertiesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.362"/>
+  <testcase name="headPdpPropertiesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.117"/>
+  <testcase name="headPdpPropertiesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.15"/>
+  <testcase name="headPdpPropertiesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.183"/>
+  <testcase name="headPdpPropertiesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.19"/>
+  <testcase name="headPdpPropertiesAfterModifyingUsedPolicyDirectory" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="2.176"/>
+  <testcase name="requestPDPWithMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.145"/>
+  <testcase name="requestPDPWithMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.07"/>
+  <testcase name="requestPDPWithMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.055"/>
+  <testcase name="requestPDPWithMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.033"/>
+  <testcase name="requestPDPWithMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.066"/>
+  <testcase name="requestPDPWithMDP" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.043"/>
+  <testcase name="setRootPolicyWithBadFunctionId" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.066"/>
+  <testcase name="setRootPolicyWithBadFunctionId" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.041"/>
+  <testcase name="setRootPolicyWithBadFunctionId" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.031"/>
+  <testcase name="setRootPolicyWithBadFunctionId" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.019"/>
+  <testcase name="setRootPolicyWithBadFunctionId" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.05"/>
+  <testcase name="setRootPolicyWithBadFunctionId" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="0.028"/>
+  <testcase name="setRootPolicyWithTooDeepPolicyRef" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.099"/>
+  <testcase name="setRootPolicyWithTooDeepPolicyRef" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.121"/>
+  <testcase name="setRootPolicyWithTooDeepPolicyRef" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.114"/>
+  <testcase name="setRootPolicyWithTooDeepPolicyRef" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.064"/>
+  <testcase name="setRootPolicyWithTooDeepPolicyRef" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.114"/>
+  <testcase name="setRootPolicyWithTooDeepPolicyRef" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling" time="1.114"/>
+  <testcase name="enablePolicyVersionRolling" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithAutoSyncAndVersionRolling" time="0.021"/>
+  <testcase name="syncExternalIdAfterDomainPropertiesFileChanged" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithAutoSyncAndVersionRolling" time="3.98"/>
+  <testcase name="addTooManyPolicyVersions" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithAutoSyncAndVersionRolling" time="0.097"/>
+  <testcase name="syncPdpAfterConfFileChanged" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithAutoSyncAndVersionRolling" time="5.069"/>
+  <testcase name="syncPdpAfterUsedPolicyDirectoryChanged" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithAutoSyncAndVersionRolling" time="10.094"/>
+  <testcase name="syncToRemoveDomainFromAPIAfterDirectorydeleted" classname="org.ow2.authzforce.webapp.test.DomainResourceTestWithAutoSyncAndVersionRolling" time="10.777"/>
+  <testcase name="setRootPolicy" classname="org.ow2.authzforce.webapp.test.AdminDomainTest" time="0.04"/>
+  <testcase name="requestPDP" classname="org.ow2.authzforce.webapp.test.AdminDomainTest" time="0.008"/>
+  <testcase name="requestPDP" classname="org.ow2.authzforce.webapp.test.AdminDomainTest" time="0.005"/>
+  <testcase name="requestPDP" classname="org.ow2.authzforce.webapp.test.AdminDomainTest" time="0.005"/>
+  <testcase name="requestPDP" classname="org.ow2.authzforce.webapp.test.AdminDomainTest" time="0.006"/>
+  <testcase name="requestPDP" classname="org.ow2.authzforce.webapp.test.AdminDomainTest" time="0.007"/>
+  <testcase name="requestPDP" classname="org.ow2.authzforce.webapp.test.AdminDomainTest" time="0.011"/>
+  <testcase name="requestPDP" classname="org.ow2.authzforce.webapp.test.AdminDomainTest" time="0.008"/>
+  <testcase name="requestPDP" classname="org.ow2.authzforce.webapp.test.AdminDomainTest" time="0.005"/>
+  <testcase name="requestPDP" classname="org.ow2.authzforce.webapp.test.AdminDomainTest" time="0.005"/>
+</testsuite>

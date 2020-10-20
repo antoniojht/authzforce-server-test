@@ -1,0 +1,1374 @@
+<html>
+<head>
+<title>TestNG:  Test_PDPOnly:No.FastInfoset:Yes.JSON:No.AutoSync:No.VersionRolling:No.DoSMitigation:Yes</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test_PDPOnly:No.FastInfoset:Yes.JSON:No.AutoSync:No.VersionRolling:No.DoSMitigation:Yes</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>72/0/2</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 20 10:04:46 UTC 2020</td>
+</tr>
+<tr><td>Total time:</td><td>16 seconds (16540 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.RootResourcesTest.addAndGetDomain()'><b>addAndGetDomain</b><br>Test class: org.ow2.authzforce.webapp.test.RootResourcesTest<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.RootResourcesTest@535779e4</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.RootResourcesTest.addAndGetDomain()'><b>addAndGetDomain</b><br>Test class: org.ow2.authzforce.webapp.test.RootResourcesTest<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.RootResourcesTest@535779e4</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.RootResourcesTest.addAndGetDomain()'><b>addAndGetDomain</b><br>Test class: org.ow2.authzforce.webapp.test.RootResourcesTest<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.RootResourcesTest@535779e4</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addAndGetPolicy()'><b>addAndGetPolicy</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addConflictingPolicyVersion()'><b>addConflictingPolicyVersion</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addInvalidPolicyType()'><b>addInvalidPolicyType</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addInvalidPolicyVersion()'><b>addInvalidPolicyVersion</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: false</td>
+<td><div><pre>javax.ws.rs.BadRequestException: HTTP 400 Bad Request
+	at sun.reflect.GeneratedConstructorAccessor265.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy88.addPolicy(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainAPIHelper.testAddAndGetPolicy(DomainAPIHelper.java:362)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addInvalidPolicyVersion(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:562)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1903379555", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1903379555'><pre>javax.ws.rs.BadRequestException: HTTP 400 Bad Request
+	at sun.reflect.GeneratedConstructorAccessor265.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy88.addPolicy(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainAPIHelper.testAddAndGetPolicy(DomainAPIHelper.java:362)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addInvalidPolicyVersion(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:562)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addPolicyTooDeep()'><b>addPolicyTooDeep</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td><div><pre>javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at sun.reflect.GeneratedConstructorAccessor271.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy91.getPolicyVersions(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addPolicyTooDeep(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:1184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1831711067", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1831711067'><pre>javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at sun.reflect.GeneratedConstructorAccessor271.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy91.getPolicyVersions(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addPolicyTooDeep(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:1184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addPolicyWithTooManyChildElements()'><b>addPolicyWithTooManyChildElements</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td><div><pre>javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at sun.reflect.GeneratedConstructorAccessor271.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy91.getPolicyVersions(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addPolicyWithTooManyChildElements(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:1159)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div><a href='#' onClick='toggleBox("stack-trace954976358", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace954976358'><pre>javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at sun.reflect.GeneratedConstructorAccessor271.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy91.getPolicyVersions(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addPolicyWithTooManyChildElements(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:1159)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addTooManyPolicies()'><b>addTooManyPolicies</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td><div><pre>javax.ws.rs.ForbiddenException: HTTP 403 Forbidden
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy88.addPolicy(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainAPIHelper.testAddAndGetPolicy(DomainAPIHelper.java:362)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addTooManyPolicies(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:680)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1744369062", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1744369062'><pre>javax.ws.rs.ForbiddenException: HTTP 403 Forbidden
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy88.addPolicy(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainAPIHelper.testAddAndGetPolicy(DomainAPIHelper.java:362)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addTooManyPolicies(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:680)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addTooManyPolicyVersions()'><b>addTooManyPolicyVersions</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td><div><pre>javax.ws.rs.ForbiddenException: HTTP 403 Forbidden
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy88.addPolicy(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainAPIHelper.testAddAndGetPolicy(DomainAPIHelper.java:362)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addTooManyPolicyVersions(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:754)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div><a href='#' onClick='toggleBox("stack-trace751180603", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace751180603'><pre>javax.ws.rs.ForbiddenException: HTTP 403 Forbidden
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy88.addPolicy(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainAPIHelper.testAddAndGetPolicy(DomainAPIHelper.java:362)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.addTooManyPolicyVersions(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:754)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.deleteAndTryGetPolicyVersion()'><b>deleteAndTryGetPolicyVersion</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.deleteAndTryGetUnusedPolicy()'><b>deleteAndTryGetUnusedPolicy</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.RootResourcesTest.deleteDomain()'><b>deleteDomain</b><br>Test class: org.ow2.authzforce.webapp.test.RootResourcesTest<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.RootResourcesTest@535779e4</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.RootResourcesTest.deleteDomainAfterDirectoryDeleted()'><b>deleteDomainAfterDirectoryDeleted</b><br>Test class: org.ow2.authzforce.webapp.test.RootResourcesTest<br>Parameters: </td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.RootResourcesTest@535779e4</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.deleteRootPolicy()'><b>deleteRootPolicy</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.deleteSingleVersionOfPolicy()'><b>deleteSingleVersionOfPolicy</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td><div><pre>javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at sun.reflect.GeneratedConstructorAccessor271.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy91.getPolicyVersions(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.deleteSingleVersionOfPolicy(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:860)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1819665340", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1819665340'><pre>javax.ws.rs.NotFoundException: HTTP 404 Not Found
+	at sun.reflect.GeneratedConstructorAccessor271.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy91.getPolicyVersions(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.deleteSingleVersionOfPolicy(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:860)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.disableMDPRequestPreproc()'><b>disableMDPRequestPreproc</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: </td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.disableMDPResultPostproc()'><b>disableMDPResultPostproc</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: </td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.disablePolicyVersionRolling()'><b>disablePolicyVersionRolling</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.enableMDPRequestPreproc()'><b>enableMDPRequestPreproc</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: </td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.enableMDPResultPostproc()'><b>enableMDPResultPostproc</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: </td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.enableThenDisableCustomCombiningAlgorithm()'><b>enableThenDisableCustomCombiningAlgorithm</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: </td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.enableThenDisableCustomDatatype()'><b>enableThenDisableCustomDatatype</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: </td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.enableThenDisableCustomFunction()'><b>enableThenDisableCustomFunction</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: </td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.enableThenDisableStrictAttributeIssuerMatch()'><b>enableThenDisableStrictAttributeIssuerMatch</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: </td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.enableThenDisableXPath()'><b>enableThenDisableXPath</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: </td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.getAndDeleteLatestPolicyVersion()'><b>getAndDeleteLatestPolicyVersion</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.getAttributeProviders()'><b>getAttributeProviders</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.RootResourcesTest.getDomain()'><b>getDomain</b><br>Test class: org.ow2.authzforce.webapp.test.RootResourcesTest<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.RootResourcesTest@535779e4</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.getDomain()'><b>getDomain</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.RootResourcesTest.getDomainByExternalId()'><b>getDomainByExternalId</b><br>Test class: org.ow2.authzforce.webapp.test.RootResourcesTest<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.RootResourcesTest@535779e4</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.getDomainProperties()'><b>getDomainProperties</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.getDomainPropertiesAfterFileModification()'><b>getDomainPropertiesAfterFileModification</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: , true</td>
+<td></td>
+<td>1</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.RootResourcesTest.getDomains()'><b>getDomains</b><br>Test class: org.ow2.authzforce.webapp.test.RootResourcesTest<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.RootResourcesTest@535779e4</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.RootResourcesTest.getDomainsAfterFileModifications()'><b>getDomainsAfterFileModifications</b><br>Test class: org.ow2.authzforce.webapp.test.RootResourcesTest<br>Parameters: </td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.RootResourcesTest@535779e4</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.RootResourcesTest.getDomainsWithBadAcceptHeader()'><b>getDomainsWithBadAcceptHeader</b><br>Test class: org.ow2.authzforce.webapp.test.RootResourcesTest<br>Parameters: , true</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.RootResourcesTest@535779e4</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.RootResourcesTest.getDomainsWithoutAcceptHeader()'><b>getDomainsWithoutAcceptHeader</b><br>Test class: org.ow2.authzforce.webapp.test.RootResourcesTest<br>Parameters: , true</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.RootResourcesTest@535779e4</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.getPap()'><b>getPap</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.RootResourcesTest.getPdpAfterDomainDirCreated()'><b>getPdpAfterDomainDirCreated</b><br>Test class: org.ow2.authzforce.webapp.test.RootResourcesTest<br>Parameters: </td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.RootResourcesTest@535779e4</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.getPdpPropertiesAfterModifyingUsedPolicyDirectory()'><b>getPdpPropertiesAfterModifyingUsedPolicyDirectory</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: , true</td>
+<td></td>
+<td>2</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.getPolicies()'><b>getPolicies</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.getPoliciesAfterModifyingUsedPolicyDirectory()'><b>getPoliciesAfterModifyingUsedPolicyDirectory</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: , true</td>
+<td></td>
+<td>2</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.getPolicyVersions()'><b>getPolicyVersions</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.getRootPolicy()'><b>getRootPolicy</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.getRootPolicyRefAfterChangingPdpConfFile()'><b>getRootPolicyRefAfterChangingPdpConfFile</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: , true</td>
+<td></td>
+<td>1</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.RootResourcesTest.getWADL()'><b>getWADL</b><br>Test class: org.ow2.authzforce.webapp.test.RootResourcesTest<br>Parameters: </td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.RootResourcesTest@535779e4</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.headDomainPropertiesAfterFileModification()'><b>headDomainPropertiesAfterFileModification</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: , true</td>
+<td></td>
+<td>1</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.headPdpPropertiesAfterModifyingUsedPolicyDirectory()'><b>headPdpPropertiesAfterModifyingUsedPolicyDirectory</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: , true</td>
+<td></td>
+<td>2</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.headRootPolicyRefAfterChangingPdpConfFile()'><b>headRootPolicyRefAfterChangingPdpConfFile</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: , true</td>
+<td></td>
+<td>1</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.requestPDPDumb()'><b>requestPDPDumb</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.requestPDPWithMDP()'><b>requestPDPWithMDP</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: </td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.requestPDPWithoutMDP()'><b>requestPDPWithoutMDP</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: src/test/resources/xacml.samples/pdp/IID005</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.requestPDPWithoutMDP()'><b>requestPDPWithoutMDP</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: src/test/resources/xacml.samples/pdp/PolicyReference.Valid</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.requestPDPWithoutMDP()'><b>requestPDPWithoutMDP</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: src/test/resources/xacml.samples/pdp/IIA001(PolicySet)</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.requestPDPWithoutMDP()'><b>requestPDPWithoutMDP</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: src/test/resources/xacml.samples/pdp/IIA002(PolicySet)</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.requestXacmlJsonPDPDumb()'><b>requestXacmlJsonPDPDumb</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.setRootPolicyWithBadFunctionId()'><b>setRootPolicyWithBadFunctionId</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.setRootPolicyWithCircularRef()'><b>setRootPolicyWithCircularRef</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.setRootPolicyWithGoodRefs()'><b>setRootPolicyWithGoodRefs</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.setRootPolicyWithRefToMissingPolicy()'><b>setRootPolicyWithRefToMissingPolicy</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.setRootPolicyWithTooDeepPolicyRef()'><b>setRootPolicyWithTooDeepPolicyRef</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: , true</td>
+<td><div><pre>javax.ws.rs.BadRequestException: HTTP 400 Bad Request
+	at sun.reflect.GeneratedConstructorAccessor265.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy89.updateOtherPdpProperties(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainAPIHelper.setRootPolicy(DomainAPIHelper.java:392)
+	at org.ow2.authzforce.webapp.test.DomainAPIHelper.setRootPolicy(DomainAPIHelper.java:411)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.setRootPolicyWithTooDeepPolicyRef(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:1690)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1619129136", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1619129136'><pre>javax.ws.rs.BadRequestException: HTTP 400 Bad Request
+	at sun.reflect.GeneratedConstructorAccessor265.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy89.updateOtherPdpProperties(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainAPIHelper.setRootPolicy(DomainAPIHelper.java:392)
+	at org.ow2.authzforce.webapp.test.DomainAPIHelper.setRootPolicy(DomainAPIHelper.java:411)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.setRootPolicyWithTooDeepPolicyRef(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:1690)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>1</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.setTooSmallMaxPolicyCount()'><b>setTooSmallMaxPolicyCount</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td><div><pre>javax.ws.rs.BadRequestException: HTTP 400 Bad Request
+	at sun.reflect.GeneratedConstructorAccessor265.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy90.updateOtherPrpProperties(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainAPIHelper.updateMaxPolicyCount(DomainAPIHelper.java:452)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.setTooSmallMaxPolicyCount(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:651)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div><a href='#' onClick='toggleBox("stack-trace837923432", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace837923432'><pre>javax.ws.rs.BadRequestException: HTTP 400 Bad Request
+	at sun.reflect.GeneratedConstructorAccessor265.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy90.updateOtherPrpProperties(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainAPIHelper.updateMaxPolicyCount(DomainAPIHelper.java:452)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.setTooSmallMaxPolicyCount(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:651)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.setTooSmallMaxPolicyVersionCount()'><b>setTooSmallMaxPolicyVersionCount</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td><div><pre>javax.ws.rs.BadRequestException: HTTP 400 Bad Request
+	at sun.reflect.GeneratedConstructorAccessor265.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy90.updateOtherPrpProperties(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainAPIHelper.updateVersioningProperties(DomainAPIHelper.java:469)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.setTooSmallMaxPolicyVersionCount(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:729)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1403032934", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1403032934'><pre>javax.ws.rs.BadRequestException: HTTP 400 Bad Request
+	at sun.reflect.GeneratedConstructorAccessor265.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:514)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:324)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:875)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:788)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:235)
+	at com.sun.proxy.$Proxy90.updateOtherPrpProperties(Unknown Source)
+	at org.ow2.authzforce.webapp.test.DomainAPIHelper.updateVersioningProperties(DomainAPIHelper.java:469)
+	at org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.setTooSmallMaxPolicyVersionCount(DomainResourceTestWithoutAutoSyncOrVersionRolling.java:729)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.setValidMaxPolicyCount()'><b>setValidMaxPolicyCount</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.setValidMaxPolicyVersionCount()'><b>setValidMaxPolicyVersionCount</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.updateAttributeProviders()'><b>updateAttributeProviders</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.updateDomainProperties()'><b>updateDomainProperties</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling<br>Parameters: false</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.updateRootPolicyRefToMissingPolicy()'><b>updateRootPolicyRefToMissingPolicy</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.updateRootPolicyRefToMissingVersion()'><b>updateRootPolicyRefToMissingVersion</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.updateRootPolicyRefToValidPolicy()'><b>updateRootPolicyRefToValidPolicy</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling.updateRootPolicyRefToValidVersion()'><b>updateRootPolicyRefToValidVersion</b><br>Test class: org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling</td>
+<td></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling@53fd0d10</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.RootResourcesTest.addDomainWithTooBigDescription()'><b>addDomainWithTooBigDescription</b><br>Test class: org.ow2.authzforce.webapp.test.RootResourcesTest<br>Parameters: true</td>
+<td><div><pre>org.testng.SkipException: Not supported in FastInfoset mode
+	at org.ow2.authzforce.webapp.test.RootResourcesTest.addDomainWithTooBigDescription(RootResourcesTest.java:284)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1655397987", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1655397987'><pre>org.testng.SkipException: Not supported in FastInfoset mode
+	at org.ow2.authzforce.webapp.test.RootResourcesTest.addDomainWithTooBigDescription(RootResourcesTest.java:284)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.RootResourcesTest@535779e4</td></tr>
+<tr>
+<td title='org.ow2.authzforce.webapp.test.RootResourcesTest.addDomainWithTooBigExternalId()'><b>addDomainWithTooBigExternalId</b><br>Test class: org.ow2.authzforce.webapp.test.RootResourcesTest<br>Parameters: true</td>
+<td><div><pre>org.testng.SkipException: Not supported in FastInfoset mode
+	at org.ow2.authzforce.webapp.test.RootResourcesTest.addDomainWithTooBigExternalId(RootResourcesTest.java:323)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1810953994", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1810953994'><pre>org.testng.SkipException: Not supported in FastInfoset mode
+	at org.ow2.authzforce.webapp.test.RootResourcesTest.addDomainWithTooBigExternalId(RootResourcesTest.java:323)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:189)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:175)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:642)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>0</td>
+<td>org.ow2.authzforce.webapp.test.RootResourcesTest@535779e4</td></tr>
+</table><p>
+</body>
+</html>

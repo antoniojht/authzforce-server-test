@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1603188241000" analysisTimestamp="1603188419925" release="">
+  <Project>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/ErrorHandlerInterceptor.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/ExceptionFilter.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/HardenedMappedXMLInputFactory.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/HardenedMappedXMLInputFactory$HardenedJSONTokener.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/JsonRiCxfJaxrsProvider.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/JsonRiCxfJaxrsProvider$1.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/JsonRiCxfJaxrsProvider$2.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/JsonRiCxfJaxrsProvider$JSONObjectFactory.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/SetPropertyAllowingMappedXMLInputFactory.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/apache/cxf/interceptor/JAXRSSubResourceCompatibleFIStaxInInterceptor.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/JSONProvider.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/JSONProvider$1.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/JSONProvider$2.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/JSONProvider$3.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/JSONProvider$BadgerfishConventionBasedXmlToJsonStreamWriterFactory.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/JSONProvider$JsonToXmlStreamReaderFactory.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/JSONProvider$MappedConventionBasedXmlToJsonStreamWriterFactory.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/JSONProvider$XmlToJsonStreamWriterFactory.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/utils/JSONUtils.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/utils/JSONUtils$IgnoreContentJettisonWriter.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/utils/JSONUtils$IgnoreMixedContentWriter.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/utils/JSONUtils$JettisonMappedReaderFactory.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/utils/JSONUtils$JettisonReader.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/utils/JSONUtils$JettisonReader$1.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/Configuration.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/Configuration$1.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/Configuration$ConverterFactory.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedNamespaceConvention.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedNamespaceConvention$NullStringConverter.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedXMLInputFactory.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedXMLInputFactory$ErrorLocation.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedXMLStreamReader.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedXMLStreamWriter.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedXMLStreamWriter$JSONProperty.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedXMLStreamWriter$JSONPropertyObject.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedXMLStreamWriter$JSONPropertyString.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/example/contract/doubleit/DoubleItPortType.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/example/schema/doubleit/DoubleItResponse.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/example/schema/doubleit/DoubleIt.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/example/schema/doubleit/ObjectFactory.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes/org/example/schema/doubleit/package-info.class</Jar>
+    <AuxClasspathEntry>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/springframework/spring-aop/4.3.12.RELEASE/spring-aop-4.3.12.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/springframework/spring-expression/4.3.12.RELEASE/spring-expression-4.3.12.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/springframework/spring-core/4.3.12.RELEASE/spring-core-4.3.12.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/logback-extensions/logback-ext-spring/0.1.4/logback-ext-spring-0.1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/ch/qos/logback/logback-classic/1.1.9/logback-classic-1.1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/ch/qos/logback/logback-core/1.1.9/logback-core-1.1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/fr/xebia/extras/xebia-logfilter-extras/1.0.1/xebia-logfilter-extras-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.13/FastInfoset-1.2.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/codehaus/jettison/jettison/1.3.8/jettison-1.3.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/apache/cxf/cxf-rt-rs-extension-providers/3.2.1/cxf-rt-rs-extension-providers-3.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/apache/cxf/cxf-core/3.2.1/cxf-core-3.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.3/woodstox-core-5.0.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/apache/ws/xmlschema/xmlschema-core/2.2.2/xmlschema-core-2.2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/apache/cxf/cxf-rt-frontend-jaxrs/3.2.1/cxf-rt-frontend-jaxrs-3.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/javax/annotation/javax.annotation-api/1.3/javax.annotation-api-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/apache/cxf/cxf-rt-rs-service-description/3.2.1/cxf-rt-rs-service-description-3.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-pap-dao-flat-file/9.1.0/authzforce-ce-pap-dao-flat-file-9.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/fasterxml/uuid/java-uuid-generator/3.1.4/java-uuid-generator-3.1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-core-pap-api/9.1.0/authzforce-ce-core-pap-api-9.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/json/json/20171018/json-20171018.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-core-pdp-api/12.1.0/authzforce-ce-core-pdp-api-12.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/net/sf/saxon/Saxon-HE/9.7.0-14/Saxon-HE-9.7.0-14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/sun/mail/mailapi/1.5.6/mailapi-1.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/google/guava/guava/22.0/guava-22.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-core-pdp-engine/10.1.0/authzforce-ce-core-pdp-engine-10.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-core-pdp-io-xacml-json/10.1.0/authzforce-ce-core-pdp-io-xacml-json-10.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-xacml-json-model/1.1.0/authzforce-ce-xacml-json-model-1.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/github/everit-org/json-schema/org.everit.json.schema/1.6.1/org.everit.json.schema-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/damnhandy/handy-uri-templates/2.1.6/handy-uri-templates-2.1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/authzforce-ce-server-rest-service-8.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.22/log4j-over-slf4j-1.7.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-rest-api-model/5.7.0/authzforce-ce-rest-api-model-5.7.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-atom-model/7.1.0/authzforce-ce-atom-model-7.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-xmlns-model/7.1.0/authzforce-ce-xmlns-model-7.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-xacml-model/7.1.0/authzforce-ce-xacml-model-7.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/jvnet/jaxb2_commons/jaxb2-basics-runtime/0.11.1/jaxb2-basics-runtime-0.11.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-pdp-ext-model/7.1.0/authzforce-ce-pdp-ext-model-7.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-jaxrs-utils/1.1.0/authzforce-ce-jaxrs-utils-1.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/apache/cxf/cxf-rt-transports-http/3.2.1/cxf-rt-transports-http-3.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/sonar/findbugs/annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/sonar/findbugs/jsr305.jar</AuxClasspathEntry>
+    <WrkDir>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/webapp/target/sonar</WrkDir>
+  </Project>
+  <BugInstance type="XXE_XMLSTREAMREADER" priority="2" rank="7" abbrev="SECXXESTR" category="SECURITY" instanceHash="9e12eb301a4c068d29c18cf5de893449" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="611">
+    <ShortMessage>XML parsing vulnerable to XXE (XMLStreamReader)</ShortMessage>
+    <LongMessage>The XML parsing is vulnerable to XML External Entity attacks</LongMessage>
+    <Class classname="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils" primary="true">
+      <SourceLine classname="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils" start="64" end="167" sourcefile="JSONUtils.java" sourcepath="org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/utils/JSONUtils.java">
+        <Message>At JSONUtils.java:[lines 64-167]</Message>
+      </SourceLine>
+      <Message>In class org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils</Message>
+    </Class>
+    <Method classname="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils" name="createBadgerFishReader" signature="(Ljava/io/InputStream;Ljava/lang/String;)Ljavax/xml/stream/XMLStreamReader;" isStatic="true" primary="true">
+      <SourceLine classname="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils" start="82" end="83" startBytecode="0" endBytecode="80" sourcefile="JSONUtils.java" sourcepath="org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/utils/JSONUtils.java"/>
+      <Message>In method org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils.createBadgerFishReader(InputStream, String)</Message>
+    </Method>
+    <SourceLine classname="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils" primary="true" start="83" end="83" startBytecode="11" endBytecode="11" sourcefile="JSONUtils.java" sourcepath="org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/utils/JSONUtils.java">
+      <Message>At JSONUtils.java:[line 83]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="XXE_XMLSTREAMREADER" priority="2" rank="7" abbrev="SECXXESTR" category="SECURITY" instanceHash="a48e93f717a75a3344ac678f48978bc9" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="611">
+    <ShortMessage>XML parsing vulnerable to XXE (XMLStreamReader)</ShortMessage>
+    <LongMessage>The XML parsing is vulnerable to XML External Entity attacks</LongMessage>
+    <Class classname="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils" primary="true">
+      <SourceLine classname="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils" start="64" end="167" sourcefile="JSONUtils.java" sourcepath="org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/utils/JSONUtils.java">
+        <Message>At JSONUtils.java:[lines 64-167]</Message>
+      </SourceLine>
+      <Message>In class org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils</Message>
+    </Class>
+    <Method classname="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils" name="createStreamReader" signature="(Ljava/io/InputStream;ZLjava/util/concurrent/ConcurrentHashMap;Ljava/lang/String;Ljava/util/List;Lorg/apache/cxf/staxutils/DocumentDepthProperties;Ljava/lang/String;)Ljavax/xml/stream/XMLStreamReader;" isStatic="true" primary="true">
+      <SourceLine classname="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils" start="152" end="167" startBytecode="0" endBytecode="301" sourcefile="JSONUtils.java" sourcepath="org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/utils/JSONUtils.java"/>
+      <Message>In method org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils.createStreamReader(InputStream, boolean, ConcurrentHashMap, String, List, DocumentDepthProperties, String)</Message>
+    </Method>
+    <SourceLine classname="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils" primary="true" start="167" end="167" startBytecode="92" endBytecode="92" sourcefile="JSONUtils.java" sourcepath="org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/utils/JSONUtils.java">
+      <Message>At JSONUtils.java:[line 167]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="SECURITY">
+    <Description>Security</Description>
+  </BugCategory>
+  <BugPattern type="XXE_XMLSTREAMREADER" abbrev="SECXXESTR" category="SECURITY" cweid="611">
+    <ShortDescription>XML parsing vulnerable to XXE (XMLStreamReader)</ShortDescription>
+    <Details><![CDATA[
+            
+<!--XXE_GENERIC_START-->
+<h3>Attack</h3>
+<p>XML External Entity (XXE) attacks can occur when an XML parser supports XML entities while processing XML received
+from an untrusted source.</p>
+<p><b>Risk 1: Expose local file content (XXE: <u>X</u>ML E<u>x</u>ternal <u>E</u>ntity)</b></p>
+<p>
+<pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot;?&gt;
+&lt;!DOCTYPE foo [
+   &lt;!ENTITY xxe SYSTEM &quot;file:///etc/passwd&quot; &gt; ]&gt;
+&lt;foo&gt;&amp;xxe;&lt;/foo&gt;</pre>
+</p>
+<b>Risk 2: Denial of service (XEE: <u>X</u>ML <u>E</u>ntity <u>E</u>xpansion)</b>
+<p>
+<pre>
+&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;!DOCTYPE lolz [
+ &lt;!ENTITY lol &quot;lol&quot;&gt;
+ &lt;!ELEMENT lolz (#PCDATA)&gt;
+ &lt;!ENTITY lol1 &quot;&amp;lol;&amp;lol;&amp;lol;&amp;lol;&amp;lol;&amp;lol;&amp;lol;&amp;lol;&amp;lol;&amp;lol;&quot;&gt;
+ &lt;!ENTITY lol2 &quot;&amp;lol1;&amp;lol1;&amp;lol1;&amp;lol1;&amp;lol1;&amp;lol1;&amp;lol1;&amp;lol1;&amp;lol1;&amp;lol1;&quot;&gt;
+ &lt;!ENTITY lol3 &quot;&amp;lol2;&amp;lol2;&amp;lol2;&amp;lol2;&amp;lol2;&amp;lol2;&amp;lol2;&amp;lol2;&amp;lol2;&amp;lol2;&quot;&gt;
+[...]
+ &lt;!ENTITY lol9 &quot;&amp;lol8;&amp;lol8;&amp;lol8;&amp;lol8;&amp;lol8;&amp;lol8;&amp;lol8;&amp;lol8;&amp;lol8;&amp;lol8;&quot;&gt;
+]&gt;
+&lt;lolz&gt;&amp;lol9;&lt;/lolz&gt;</pre>
+</p>
+
+<h3>Solution</h3>
+<p>
+In order to avoid exposing dangerous feature of the XML parser, you can do the following change to the code.
+</p>
+<!--XXE_GENERIC_END-->
+
+<p><b>Vulnerable Code:</b></p>
+<p>
+<pre>public void parseXML(InputStream input) throws XMLStreamException {
+
+    XMLInputFactory factory = XMLInputFactory.newFactory();
+    XMLStreamReader reader = factory.createXMLStreamReader(input);
+    [...]
+}</pre>
+</p>
+<br/>
+<p>
+The following snippets show two available solutions. You can set one property or both.
+</p>
+
+<p><b>Solution disabling External Entities:</b></p>
+<p>
+<pre>public void parseXML(InputStream input) throws XMLStreamException {
+
+    XMLInputFactory factory = XMLInputFactory.newFactory();
+    factory.setProperty(XMLInputFactory.IS_SUPPORTING_EXTERNAL_ENTITIES, false);
+    XMLStreamReader reader = factory.createXMLStreamReader(input);
+    [...]
+}</pre>
+</p>
+
+<p><b>Solution disabling DTD:</b></p>
+<p>
+<pre>public void parseXML(InputStream input) throws XMLStreamException {
+
+    XMLInputFactory factory = XMLInputFactory.newFactory();
+    factory.setProperty(XMLInputFactory.SUPPORT_DTD, false);
+    XMLStreamReader reader = factory.createXMLStreamReader(input);
+    [...]
+}</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<!--XXE_GENERIC_START-->
+<a href="http://cwe.mitre.org/data/definitions/611.html">CWE-611: Improper Restriction of XML External Entity Reference ('XXE')</a><br/>
+<a href="https://www.securecoding.cert.org/confluence/pages/viewpage.action?pageId=61702260">CERT: IDS10-J. Prevent XML external entity attacks</a><br/>
+<a href="https://www.owasp.org/index.php/XML_External_Entity_%28XXE%29_Processing">OWASP.org: XML External Entity (XXE) Processing</a><br/>
+<a href="http://www.ws-attacks.org/index.php/XML_Entity_Expansion">WS-Attacks.org: XML Entity Expansion</a><br/>
+<a href="http://www.ws-attacks.org/index.php/XML_External_Entity_DOS">WS-Attacks.org: XML External Entity DOS</a><br/>
+<a href="http://www.ws-attacks.org/index.php/XML_Entity_Reference_Attack">WS-Attacks.org: XML Entity Reference Attack</a><br/>
+<a href="http://blog.h3xstream.com/2014/06/identifying-xml-external-entity.html">Identifying XML External Entity vulnerability (XXE)</a><br/>
+<!--XXE_GENERIC_END-->
+<a href="http://openjdk.java.net/jeps/185">JEP 185: Restrict Fetching of External XML Resources</a>
+</p>
+
+        ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="SECXXESTR">
+    <Description>XXE Vulnerability using XMLStreamReader</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 20 Oct 2020 10:04:01 +0000" total_classes="41" referenced_classes="245" total_bugs="2" total_size="1679" num_packages="7" java_version="1.8.0_265" vm_version="25.265-b01" cpu_seconds="36.10" clock_seconds="8.75" peak_mbytes="1094.46" alloc_mbytes="3497.00" gc_seconds="0.07" priority_2="2">
+    <FileStats path="org/example/contract/doubleit/DoubleItPortType.java" bugCount="0" size="2"/>
+    <FileStats path="org/example/schema/doubleit/DoubleIt.java" bugCount="0" size="9"/>
+    <FileStats path="org/example/schema/doubleit/DoubleItResponse.java" bugCount="0" size="9"/>
+    <FileStats path="org/example/schema/doubleit/ObjectFactory.java" bugCount="0" size="8"/>
+    <FileStats path="org/example/schema/doubleit/package-info.java" bugCount="0" size="1"/>
+    <FileStats path="org/ow2/authzforce/webapp/ErrorHandlerInterceptor.java" bugCount="0" size="42"/>
+    <FileStats path="org/ow2/authzforce/webapp/ExceptionFilter.java" bugCount="0" size="23"/>
+    <FileStats path="org/ow2/authzforce/webapp/HardenedMappedXMLInputFactory.java" bugCount="0" size="43"/>
+    <FileStats path="org/ow2/authzforce/webapp/JsonRiCxfJaxrsProvider.java" bugCount="0" size="57"/>
+    <FileStats path="org/ow2/authzforce/webapp/SetPropertyAllowingMappedXMLInputFactory.java" bugCount="0" size="6"/>
+    <FileStats path="org/ow2/authzforce/webapp/org/apache/cxf/interceptor/JAXRSSubResourceCompatibleFIStaxInInterceptor.java" bugCount="0" size="27"/>
+    <FileStats path="org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/JSONProvider.java" bugCount="0" size="506"/>
+    <FileStats path="org/ow2/authzforce/webapp/org/apache/cxf/jaxrs/provider/json/utils/JSONUtils.java" bugCount="2" size="180" bugHash="01940f216ea14f575e655797ebf156f1"/>
+    <FileStats path="org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/Configuration.java" bugCount="0" size="144"/>
+    <FileStats path="org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedNamespaceConvention.java" bugCount="0" size="205"/>
+    <FileStats path="org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedXMLInputFactory.java" bugCount="0" size="39"/>
+    <FileStats path="org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedXMLStreamReader.java" bugCount="0" size="168"/>
+    <FileStats path="org/ow2/authzforce/webapp/org/codehaus/jettison/mapped/MappedXMLStreamWriter.java" bugCount="0" size="210"/>
+    <PackageStats package="org.example.contract.doubleit" total_bugs="0" total_types="1" total_size="2">
+      <ClassStats class="org.example.contract.doubleit.DoubleItPortType" sourceFile="DoubleItPortType.java" interface="true" size="2" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.example.schema.doubleit" total_bugs="0" total_types="4" total_size="27">
+      <ClassStats class="org.example.schema.doubleit.DoubleIt" sourceFile="DoubleIt.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.example.schema.doubleit.DoubleItResponse" sourceFile="DoubleItResponse.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.example.schema.doubleit.ObjectFactory" sourceFile="ObjectFactory.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.example.schema.doubleit.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.ow2.authzforce.webapp" total_bugs="0" total_types="9" total_size="171">
+      <ClassStats class="org.ow2.authzforce.webapp.ErrorHandlerInterceptor" sourceFile="ErrorHandlerInterceptor.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.ExceptionFilter" sourceFile="ExceptionFilter.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.HardenedMappedXMLInputFactory" sourceFile="HardenedMappedXMLInputFactory.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.HardenedMappedXMLInputFactory$HardenedJSONTokener" sourceFile="HardenedMappedXMLInputFactory.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.JsonRiCxfJaxrsProvider" sourceFile="JsonRiCxfJaxrsProvider.java" interface="false" size="41" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.JsonRiCxfJaxrsProvider$1" sourceFile="JsonRiCxfJaxrsProvider.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.JsonRiCxfJaxrsProvider$2" sourceFile="JsonRiCxfJaxrsProvider.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.JsonRiCxfJaxrsProvider$JSONObjectFactory" sourceFile="JsonRiCxfJaxrsProvider.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.SetPropertyAllowingMappedXMLInputFactory" sourceFile="SetPropertyAllowingMappedXMLInputFactory.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.ow2.authzforce.webapp.org.apache.cxf.interceptor" total_bugs="0" total_types="1" total_size="27">
+      <ClassStats class="org.ow2.authzforce.webapp.org.apache.cxf.interceptor.JAXRSSubResourceCompatibleFIStaxInInterceptor" sourceFile="JAXRSSubResourceCompatibleFIStaxInInterceptor.java" interface="false" size="27" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json" total_bugs="0" total_types="8" total_size="506">
+      <ClassStats class="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.JSONProvider" sourceFile="JSONProvider.java" interface="false" size="419" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.JSONProvider$1" sourceFile="JSONProvider.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.JSONProvider$2" sourceFile="JSONProvider.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.JSONProvider$3" sourceFile="JSONProvider.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.JSONProvider$BadgerfishConventionBasedXmlToJsonStreamWriterFactory" sourceFile="JSONProvider.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.JSONProvider$JsonToXmlStreamReaderFactory" sourceFile="JSONProvider.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.JSONProvider$MappedConventionBasedXmlToJsonStreamWriterFactory" sourceFile="JSONProvider.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.JSONProvider$XmlToJsonStreamWriterFactory" sourceFile="JSONProvider.java" interface="true" size="2" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils" total_bugs="2" total_types="6" total_size="180" priority_2="2">
+      <ClassStats class="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils" sourceFile="JSONUtils.java" interface="false" size="54" bugs="2" priority_2="2"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils$IgnoreContentJettisonWriter" sourceFile="JSONUtils.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils$IgnoreMixedContentWriter" sourceFile="JSONUtils.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils$JettisonMappedReaderFactory" sourceFile="JSONUtils.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils$JettisonReader" sourceFile="JSONUtils.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.apache.cxf.jaxrs.provider.json.utils.JSONUtils$JettisonReader$1" sourceFile="JSONUtils.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.ow2.authzforce.webapp.org.codehaus.jettison.mapped" total_bugs="0" total_types="12" total_size="766">
+      <ClassStats class="org.ow2.authzforce.webapp.org.codehaus.jettison.mapped.Configuration" sourceFile="Configuration.java" interface="false" size="130" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.codehaus.jettison.mapped.Configuration$1" sourceFile="Configuration.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.codehaus.jettison.mapped.Configuration$ConverterFactory" sourceFile="Configuration.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.codehaus.jettison.mapped.MappedNamespaceConvention" sourceFile="MappedNamespaceConvention.java" interface="false" size="194" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.codehaus.jettison.mapped.MappedNamespaceConvention$NullStringConverter" sourceFile="MappedNamespaceConvention.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.codehaus.jettison.mapped.MappedXMLInputFactory" sourceFile="MappedXMLInputFactory.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.codehaus.jettison.mapped.MappedXMLInputFactory$ErrorLocation" sourceFile="MappedXMLInputFactory.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.codehaus.jettison.mapped.MappedXMLStreamReader" sourceFile="MappedXMLStreamReader.java" interface="false" size="168" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.codehaus.jettison.mapped.MappedXMLStreamWriter" sourceFile="MappedXMLStreamWriter.java" interface="false" size="106" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.codehaus.jettison.mapped.MappedXMLStreamWriter$JSONProperty" sourceFile="MappedXMLStreamWriter.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.codehaus.jettison.mapped.MappedXMLStreamWriter$JSONPropertyObject" sourceFile="MappedXMLStreamWriter.java" interface="false" size="50" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.webapp.org.codehaus.jettison.mapped.MappedXMLStreamWriter$JSONPropertyString" sourceFile="MappedXMLStreamWriter.java" interface="false" size="34" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="623" invocations="1254" avgMicrosecondsPerInvocation="497" maxMicrosecondsPerInvocation="29882" standardDeviationMicrosecondsPerInvocation="1334"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="398" invocations="245" avgMicrosecondsPerInvocation="1626" maxMicrosecondsPerInvocation="46664" standardDeviationMicrosecondsPerInvocation="4656"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="365" invocations="245" avgMicrosecondsPerInvocation="1489" maxMicrosecondsPerInvocation="43736" standardDeviationMicrosecondsPerInvocation="4058"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="319" invocations="1265" avgMicrosecondsPerInvocation="252" maxMicrosecondsPerInvocation="8412" standardDeviationMicrosecondsPerInvocation="314"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="315" invocations="812" avgMicrosecondsPerInvocation="388" maxMicrosecondsPerInvocation="11267" standardDeviationMicrosecondsPerInvocation="820"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="264" invocations="297" avgMicrosecondsPerInvocation="890" maxMicrosecondsPerInvocation="22282" standardDeviationMicrosecondsPerInvocation="2629"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="214" invocations="308" avgMicrosecondsPerInvocation="697" maxMicrosecondsPerInvocation="26798" standardDeviationMicrosecondsPerInvocation="2315"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="187" invocations="295" avgMicrosecondsPerInvocation="634" maxMicrosecondsPerInvocation="11611" standardDeviationMicrosecondsPerInvocation="1375"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="186" invocations="297" avgMicrosecondsPerInvocation="628" maxMicrosecondsPerInvocation="16342" standardDeviationMicrosecondsPerInvocation="1683"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="178" invocations="311" avgMicrosecondsPerInvocation="573" maxMicrosecondsPerInvocation="21675" standardDeviationMicrosecondsPerInvocation="1737"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="165" invocations="304" avgMicrosecondsPerInvocation="544" maxMicrosecondsPerInvocation="21273" standardDeviationMicrosecondsPerInvocation="1562"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="156" invocations="1220" avgMicrosecondsPerInvocation="128" maxMicrosecondsPerInvocation="69392" standardDeviationMicrosecondsPerInvocation="1991"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="151" invocations="296" avgMicrosecondsPerInvocation="510" maxMicrosecondsPerInvocation="19157" standardDeviationMicrosecondsPerInvocation="1592"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="149" invocations="170" avgMicrosecondsPerInvocation="879" maxMicrosecondsPerInvocation="31182" standardDeviationMicrosecondsPerInvocation="3307"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="141" invocations="245" avgMicrosecondsPerInvocation="577" maxMicrosecondsPerInvocation="18008" standardDeviationMicrosecondsPerInvocation="1858"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="116" invocations="368" avgMicrosecondsPerInvocation="316" maxMicrosecondsPerInvocation="29236" standardDeviationMicrosecondsPerInvocation="1739"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="115" invocations="304" avgMicrosecondsPerInvocation="378" maxMicrosecondsPerInvocation="66792" standardDeviationMicrosecondsPerInvocation="3821"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="106" invocations="245" avgMicrosecondsPerInvocation="432" maxMicrosecondsPerInvocation="9344" standardDeviationMicrosecondsPerInvocation="1041"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="87" invocations="245" avgMicrosecondsPerInvocation="355" maxMicrosecondsPerInvocation="7899" standardDeviationMicrosecondsPerInvocation="948"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="82" invocations="147" avgMicrosecondsPerInvocation="560" maxMicrosecondsPerInvocation="15899" standardDeviationMicrosecondsPerInvocation="1533"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="81" invocations="245" avgMicrosecondsPerInvocation="333" maxMicrosecondsPerInvocation="32627" standardDeviationMicrosecondsPerInvocation="2125"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="75" invocations="245" avgMicrosecondsPerInvocation="306" maxMicrosecondsPerInvocation="9494" standardDeviationMicrosecondsPerInvocation="919"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="74" invocations="41" avgMicrosecondsPerInvocation="1820" maxMicrosecondsPerInvocation="35405" standardDeviationMicrosecondsPerInvocation="5632"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="71" invocations="245" avgMicrosecondsPerInvocation="290" maxMicrosecondsPerInvocation="12103" standardDeviationMicrosecondsPerInvocation="1052"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="65" invocations="297" avgMicrosecondsPerInvocation="221" maxMicrosecondsPerInvocation="10028" standardDeviationMicrosecondsPerInvocation="947"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="58" invocations="41" avgMicrosecondsPerInvocation="1421" maxMicrosecondsPerInvocation="32398" standardDeviationMicrosecondsPerInvocation="4943"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="57" invocations="4768" avgMicrosecondsPerInvocation="12" maxMicrosecondsPerInvocation="11975" standardDeviationMicrosecondsPerInvocation="200"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueRangeAnalysisFactory" totalMilliseconds="53" invocations="304" avgMicrosecondsPerInvocation="176" maxMicrosecondsPerInvocation="8327" standardDeviationMicrosecondsPerInvocation="724"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="51" invocations="245" avgMicrosecondsPerInvocation="210" maxMicrosecondsPerInvocation="28191" standardDeviationMicrosecondsPerInvocation="1999"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="45" invocations="245" avgMicrosecondsPerInvocation="183" maxMicrosecondsPerInvocation="6020" standardDeviationMicrosecondsPerInvocation="525"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBadCast2" totalMilliseconds="44" invocations="41" avgMicrosecondsPerInvocation="1090" maxMicrosecondsPerInvocation="23693" standardDeviationMicrosecondsPerInvocation="3878"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindPuzzlers" totalMilliseconds="43" invocations="41" avgMicrosecondsPerInvocation="1050" maxMicrosecondsPerInvocation="27570" standardDeviationMicrosecondsPerInvocation="4219"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="42" invocations="245" avgMicrosecondsPerInvocation="172" maxMicrosecondsPerInvocation="5831" standardDeviationMicrosecondsPerInvocation="558"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="40" invocations="41" avgMicrosecondsPerInvocation="993" maxMicrosecondsPerInvocation="10107" standardDeviationMicrosecondsPerInvocation="1845"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="39" invocations="41" avgMicrosecondsPerInvocation="972" maxMicrosecondsPerInvocation="14918" standardDeviationMicrosecondsPerInvocation="2325"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="37" invocations="295" avgMicrosecondsPerInvocation="128" maxMicrosecondsPerInvocation="6207" standardDeviationMicrosecondsPerInvocation="420"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison" totalMilliseconds="35" invocations="41" avgMicrosecondsPerInvocation="860" maxMicrosecondsPerInvocation="10797" standardDeviationMicrosecondsPerInvocation="1890"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="35" invocations="41" avgMicrosecondsPerInvocation="856" maxMicrosecondsPerInvocation="15781" standardDeviationMicrosecondsPerInvocation="2482"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DefaultEncodingDetector" totalMilliseconds="34" invocations="41" avgMicrosecondsPerInvocation="846" maxMicrosecondsPerInvocation="21087" standardDeviationMicrosecondsPerInvocation="3277"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="34" invocations="41" avgMicrosecondsPerInvocation="842" maxMicrosecondsPerInvocation="10424" standardDeviationMicrosecondsPerInvocation="1808"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUselessObjects" totalMilliseconds="34" invocations="41" avgMicrosecondsPerInvocation="840" maxMicrosecondsPerInvocation="13176" standardDeviationMicrosecondsPerInvocation="2131"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReadOfInstanceFieldInMethodInvokedByConstructorInSuperclass" totalMilliseconds="33" invocations="41" avgMicrosecondsPerInvocation="821" maxMicrosecondsPerInvocation="24894" standardDeviationMicrosecondsPerInvocation="3832"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.RuntimeExceptionCapture" totalMilliseconds="32" invocations="41" avgMicrosecondsPerInvocation="782" maxMicrosecondsPerInvocation="17672" standardDeviationMicrosecondsPerInvocation="2711"/>
+      <ClassProfile name="edu.umd.cs.findbugs.DetectorToDetector2Adapter" totalMilliseconds="31" invocations="9837" avgMicrosecondsPerInvocation="3" maxMicrosecondsPerInvocation="251" standardDeviationMicrosecondsPerInvocation="3"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="30" invocations="41" avgMicrosecondsPerInvocation="751" maxMicrosecondsPerInvocation="9860" standardDeviationMicrosecondsPerInvocation="1728"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBadForLoop" totalMilliseconds="29" invocations="41" avgMicrosecondsPerInvocation="716" maxMicrosecondsPerInvocation="22150" standardDeviationMicrosecondsPerInvocation="3396"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDoubleCheck" totalMilliseconds="29" invocations="41" avgMicrosecondsPerInvocation="714" maxMicrosecondsPerInvocation="20853" standardDeviationMicrosecondsPerInvocation="3193"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.MethodReturnCheck" totalMilliseconds="28" invocations="41" avgMicrosecondsPerInvocation="704" maxMicrosecondsPerInvocation="16356" standardDeviationMicrosecondsPerInvocation="2506"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="27" invocations="266" avgMicrosecondsPerInvocation="102" maxMicrosecondsPerInvocation="3151" standardDeviationMicrosecondsPerInvocation="273"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.password.ConstantPasswordDetector" totalMilliseconds="25" invocations="41" avgMicrosecondsPerInvocation="619" maxMicrosecondsPerInvocation="8563" standardDeviationMicrosecondsPerInvocation="1342"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.file.PathTraversalDetector" totalMilliseconds="25" invocations="41" avgMicrosecondsPerInvocation="611" maxMicrosecondsPerInvocation="6955" standardDeviationMicrosecondsPerInvocation="1168"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDerefsInvolvingNonShortCircuitEvaluation" totalMilliseconds="24" invocations="41" avgMicrosecondsPerInvocation="601" maxMicrosecondsPerInvocation="18847" standardDeviationMicrosecondsPerInvocation="2890"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

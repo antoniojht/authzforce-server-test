@@ -323,7 +323,7 @@ public class MappedXMLStreamWriter extends AbstractXMLStreamWriter
 	@Override
 	public void writeAttribute(final String prefix, final String ns, final String local, final String value) throws XMLStreamException
 	{
-		final String key = convention.isElement(prefix, ns, local) ? convention.createKey(prefix, ns, local) : convention.createAttributeKey(prefix, ns, local);
+		final String key = convention.isElement(ns, local) ? convention.createKey(prefix, ns, local) : convention.createAttributeKey(prefix, ns, local);
 		final JSONPropertyString prop = new JSONPropertyString(key, null);
 		prop.addText(value);
 		current = current.withProperty(prop, false);

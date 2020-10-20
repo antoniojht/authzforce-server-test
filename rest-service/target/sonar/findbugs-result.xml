@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1603188235000" analysisTimestamp="1603188432538" release="">
+  <Project>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/classes/org/ow2/authzforce/rest/service/jaxrs/DomainResourceImpl.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/classes/org/ow2/authzforce/rest/service/jaxrs/DomainResourceImpl$Factory.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/classes/org/ow2/authzforce/rest/service/jaxrs/DomainsResourceImpl.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/classes/org/ow2/authzforce/rest/service/jaxrs/PolicyResourceImpl.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/classes/org/ow2/authzforce/rest/service/jaxrs/PolicyResourceImpl$1.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/classes/org/ow2/authzforce/rest/service/jaxrs/PolicyVersionResourceImpl.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/classes/org/ow2/authzforce/rest/service/jaxrs/PolicyVersionResourceImpl$1.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/classes/org/ow2/authzforce/rest/service/jaxrs/ProductMetadataResourceImpl.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/classes/org/ow2/authzforce/rest/service/jaxrs/PrpRWPropertiesImpl.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/classes/org/ow2/authzforce/rest/service/jaxrs/WritableDomainPropertiesImpl.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/classes/org/ow2/authzforce/rest/service/jaxrs/WritablePdpPropertiesImpl.class</Jar>
+    <Jar>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/classes/org/ow2/authzforce/rest/service/jaxrs/DomainResourceImpl$1.class</Jar>
+    <AuxClasspathEntry>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.22/log4j-over-slf4j-1.7.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-rest-api-model/5.7.0/authzforce-ce-rest-api-model-5.7.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-atom-model/7.1.0/authzforce-ce-atom-model-7.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-xmlns-model/7.1.0/authzforce-ce-xmlns-model-7.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-xacml-model/7.1.0/authzforce-ce-xacml-model-7.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/jvnet/jaxb2_commons/jaxb2-basics-runtime/0.11.1/jaxb2-basics-runtime-0.11.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-pdp-ext-model/7.1.0/authzforce-ce-pdp-ext-model-7.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/json/json/20171018/json-20171018.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-core-pap-api/9.1.0/authzforce-ce-core-pap-api-9.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-core-pdp-api/12.1.0/authzforce-ce-core-pdp-api-12.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/net/sf/saxon/Saxon-HE/9.7.0-14/Saxon-HE-9.7.0-14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/sun/mail/mailapi/1.5.6/mailapi-1.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/google/guava/guava/22.0/guava-22.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-jaxrs-utils/1.1.0/authzforce-ce-jaxrs-utils-1.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/ow2/authzforce/authzforce-ce-xacml-json-model/1.1.0/authzforce-ce-xacml-json-model-1.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/org/springframework/spring-core/4.3.12.RELEASE/spring-core-4.3.12.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/github/everit-org/json-schema/org.everit.json.schema/1.6.1/org.everit.json.schema-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/com/damnhandy/handy-uri-templates/2.1.6/handy-uri-templates-2.1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/root/.m2/repository/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/sonar/findbugs/annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/sonar/findbugs/jsr305.jar</AuxClasspathEntry>
+    <WrkDir>/opt/bubblewall-directory/5f8eae11005c3e6ef306ac49/rest-service/target/sonar</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 20 Oct 2020 10:03:55 +0000" total_classes="12" referenced_classes="119" total_bugs="0" total_size="590" num_packages="1" java_version="1.8.0_265" vm_version="25.265-b01" cpu_seconds="10.55" clock_seconds="2.46" peak_mbytes="1148.07" alloc_mbytes="3497.00" gc_seconds="0.00">
+    <FileStats path="org/ow2/authzforce/rest/service/jaxrs/DomainResourceImpl.java" bugCount="0" size="297"/>
+    <FileStats path="org/ow2/authzforce/rest/service/jaxrs/DomainsResourceImpl.java" bugCount="0" size="81"/>
+    <FileStats path="org/ow2/authzforce/rest/service/jaxrs/PolicyResourceImpl.java" bugCount="0" size="81"/>
+    <FileStats path="org/ow2/authzforce/rest/service/jaxrs/PolicyVersionResourceImpl.java" bugCount="0" size="51"/>
+    <FileStats path="org/ow2/authzforce/rest/service/jaxrs/ProductMetadataResourceImpl.java" bugCount="0" size="36"/>
+    <FileStats path="org/ow2/authzforce/rest/service/jaxrs/PrpRWPropertiesImpl.java" bugCount="0" size="18"/>
+    <FileStats path="org/ow2/authzforce/rest/service/jaxrs/WritableDomainPropertiesImpl.java" bugCount="0" size="10"/>
+    <FileStats path="org/ow2/authzforce/rest/service/jaxrs/WritablePdpPropertiesImpl.java" bugCount="0" size="16"/>
+    <PackageStats package="org.ow2.authzforce.rest.service.jaxrs" total_bugs="0" total_types="12" total_size="590">
+      <ClassStats class="org.ow2.authzforce.rest.service.jaxrs.DomainResourceImpl" sourceFile="DomainResourceImpl.java" interface="false" size="279" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.rest.service.jaxrs.DomainResourceImpl$1" sourceFile="DomainResourceImpl.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.rest.service.jaxrs.DomainResourceImpl$Factory" sourceFile="DomainResourceImpl.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.rest.service.jaxrs.DomainsResourceImpl" sourceFile="DomainsResourceImpl.java" interface="false" size="81" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.rest.service.jaxrs.PolicyResourceImpl" sourceFile="PolicyResourceImpl.java" interface="false" size="69" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.rest.service.jaxrs.PolicyResourceImpl$1" sourceFile="PolicyResourceImpl.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.rest.service.jaxrs.PolicyVersionResourceImpl" sourceFile="PolicyVersionResourceImpl.java" interface="false" size="41" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.rest.service.jaxrs.PolicyVersionResourceImpl$1" sourceFile="PolicyVersionResourceImpl.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.rest.service.jaxrs.ProductMetadataResourceImpl" sourceFile="ProductMetadataResourceImpl.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.rest.service.jaxrs.PrpRWPropertiesImpl" sourceFile="PrpRWPropertiesImpl.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.rest.service.jaxrs.WritableDomainPropertiesImpl" sourceFile="WritableDomainPropertiesImpl.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="org.ow2.authzforce.rest.service.jaxrs.WritablePdpPropertiesImpl" sourceFile="WritablePdpPropertiesImpl.java" interface="false" size="16" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="184" invocations="616" avgMicrosecondsPerInvocation="299" maxMicrosecondsPerInvocation="5358" standardDeviationMicrosecondsPerInvocation="574"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="116" invocations="73" avgMicrosecondsPerInvocation="1601" maxMicrosecondsPerInvocation="14527" standardDeviationMicrosecondsPerInvocation="2870"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="97" invocations="119" avgMicrosecondsPerInvocation="816" maxMicrosecondsPerInvocation="13706" standardDeviationMicrosecondsPerInvocation="2095"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="89" invocations="119" avgMicrosecondsPerInvocation="756" maxMicrosecondsPerInvocation="14512" standardDeviationMicrosecondsPerInvocation="2082"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="85" invocations="620" avgMicrosecondsPerInvocation="137" maxMicrosecondsPerInvocation="456" standardDeviationMicrosecondsPerInvocation="72"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="83" invocations="317" avgMicrosecondsPerInvocation="264" maxMicrosecondsPerInvocation="2815" standardDeviationMicrosecondsPerInvocation="373"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="48" invocations="73" avgMicrosecondsPerInvocation="666" maxMicrosecondsPerInvocation="5016" standardDeviationMicrosecondsPerInvocation="1121"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="47" invocations="83" avgMicrosecondsPerInvocation="571" maxMicrosecondsPerInvocation="3312" standardDeviationMicrosecondsPerInvocation="799"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="44" invocations="83" avgMicrosecondsPerInvocation="538" maxMicrosecondsPerInvocation="4214" standardDeviationMicrosecondsPerInvocation="829"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="41" invocations="70" avgMicrosecondsPerInvocation="597" maxMicrosecondsPerInvocation="4233" standardDeviationMicrosecondsPerInvocation="904"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="36" invocations="73" avgMicrosecondsPerInvocation="505" maxMicrosecondsPerInvocation="4668" standardDeviationMicrosecondsPerInvocation="836"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="33" invocations="73" avgMicrosecondsPerInvocation="463" maxMicrosecondsPerInvocation="3057" standardDeviationMicrosecondsPerInvocation="574"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="30" invocations="580" avgMicrosecondsPerInvocation="51" maxMicrosecondsPerInvocation="4906" standardDeviationMicrosecondsPerInvocation="215"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="28" invocations="119" avgMicrosecondsPerInvocation="240" maxMicrosecondsPerInvocation="6355" standardDeviationMicrosecondsPerInvocation="717"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="28" invocations="54" avgMicrosecondsPerInvocation="520" maxMicrosecondsPerInvocation="3205" standardDeviationMicrosecondsPerInvocation="740"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDerefsInvolvingNonShortCircuitEvaluation" totalMilliseconds="24" invocations="12" avgMicrosecondsPerInvocation="2043" maxMicrosecondsPerInvocation="22208" standardDeviationMicrosecondsPerInvocation="6082"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="23" invocations="119" avgMicrosecondsPerInvocation="197" maxMicrosecondsPerInvocation="3570" standardDeviationMicrosecondsPerInvocation="491"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LockDataflowFactory" totalMilliseconds="22" invocations="27" avgMicrosecondsPerInvocation="850" maxMicrosecondsPerInvocation="2943" standardDeviationMicrosecondsPerInvocation="969"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="22" invocations="119" avgMicrosecondsPerInvocation="188" maxMicrosecondsPerInvocation="6672" standardDeviationMicrosecondsPerInvocation="680"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="21" invocations="63" avgMicrosecondsPerInvocation="335" maxMicrosecondsPerInvocation="14220" standardDeviationMicrosecondsPerInvocation="1770"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="20" invocations="12" avgMicrosecondsPerInvocation="1715" maxMicrosecondsPerInvocation="13688" standardDeviationMicrosecondsPerInvocation="3721"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="20" invocations="12" avgMicrosecondsPerInvocation="1709" maxMicrosecondsPerInvocation="16872" standardDeviationMicrosecondsPerInvocation="4581"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="20" invocations="119" avgMicrosecondsPerInvocation="168" maxMicrosecondsPerInvocation="4044" standardDeviationMicrosecondsPerInvocation="492"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="19" invocations="190" avgMicrosecondsPerInvocation="100" maxMicrosecondsPerInvocation="1947" standardDeviationMicrosecondsPerInvocation="186"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="18" invocations="119" avgMicrosecondsPerInvocation="151" maxMicrosecondsPerInvocation="12292" standardDeviationMicrosecondsPerInvocation="1154"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="17" invocations="73" avgMicrosecondsPerInvocation="240" maxMicrosecondsPerInvocation="5859" standardDeviationMicrosecondsPerInvocation="705"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="15" invocations="119" avgMicrosecondsPerInvocation="130" maxMicrosecondsPerInvocation="1531" standardDeviationMicrosecondsPerInvocation="287"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="14" invocations="119" avgMicrosecondsPerInvocation="121" maxMicrosecondsPerInvocation="1114" standardDeviationMicrosecondsPerInvocation="191"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BadSyntaxForRegularExpression" totalMilliseconds="13" invocations="12" avgMicrosecondsPerInvocation="1159" maxMicrosecondsPerInvocation="11522" standardDeviationMicrosecondsPerInvocation="3131"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.password.ConstantPasswordDetector" totalMilliseconds="12" invocations="12" avgMicrosecondsPerInvocation="1060" maxMicrosecondsPerInvocation="5201" standardDeviationMicrosecondsPerInvocation="1515"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="12" invocations="119" avgMicrosecondsPerInvocation="101" maxMicrosecondsPerInvocation="1497" standardDeviationMicrosecondsPerInvocation="235"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DroppedException" totalMilliseconds="11" invocations="12" avgMicrosecondsPerInvocation="959" maxMicrosecondsPerInvocation="11127" standardDeviationMicrosecondsPerInvocation="3065"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="11" invocations="12" avgMicrosecondsPerInvocation="940" maxMicrosecondsPerInvocation="6181" standardDeviationMicrosecondsPerInvocation="1635"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

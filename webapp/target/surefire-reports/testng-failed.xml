@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [AuthZForce.PDP.REST.API.FastInfoset]">
+  <parameter name="enableDoSMitigation" value="false"/>
+  <parameter name="remote.base.url" value=""/>
+  <parameter name="org.ow2.authzforce.domains.sync.interval" value="0"/>
+  <parameter name="useJSON" value="false"/>
+  <parameter name="legacy.fs" value="true"/>
+  <parameter name="enableFastInfoset" value="true"/>
+  <parameter name="enablePdpOnly" value="false"/>
+  <test name="Test_PDPOnly:No.FastInfoset:Yes.JSON:No.AutoSync:No.VersionRolling:No.DoSMitigation:Yes(failed)">
+    <classes>
+      <class name="org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="addDomain"/>
+          <include name="addDomain"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="deleteDomain"/>
+          <include name="deleteDomain"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- org.ow2.authzforce.webapp.test.DomainResourceTestWithoutAutoSyncOrVersionRolling -->
+      <class name="org.ow2.authzforce.webapp.test.RootResourcesTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="addDomainWithTooBigExternalId" invocation-numbers="0"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="afterTest"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="addDomainWithTooBigDescription" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- org.ow2.authzforce.webapp.test.RootResourcesTest -->
+    </classes>
+  </test> <!-- Test_PDPOnly:No.FastInfoset:Yes.JSON:No.AutoSync:No.VersionRolling:No.DoSMitigation:Yes(failed) -->
+</suite> <!-- Failed suite [AuthZForce.PDP.REST.API.FastInfoset] -->
